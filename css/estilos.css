@@ -18,7 +18,7 @@ p {   /*Todos los parrafos tienen las mismas caracteristicas*/
 
 
 
-/*------------------------------------------------------------------------HEADER------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------HEADERHEADERHEADERHEADERHEADER------------------------------------------------------------------------------*/
 /*------------------------------------------------------------------------HEADER------------------------------------------------------------------------------*/
 /*------------------------------------------------------------------------HEADER------------------------------------------------------------------------------*/
 /*------------------------------------------------------------------------HEADER------------------------------------------------------------------------------*/
@@ -89,7 +89,7 @@ p {   /*Todos los parrafos tienen las mismas caracteristicas*/
 .azulHome{
     display: flex;
     flex-wrap: wrap;
-    background-image: radial-gradient(circle at 50% -3.03%, #7171b3 0, #354691 50%, #002170 100%);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(2,3,87,1) 35%, rgba(110,180,249,1) 100%);
     min-height: 500px;
     width: 100%;
     justify-content: center;
@@ -203,7 +203,7 @@ p {   /*Todos los parrafos tienen las mismas caracteristicas*/
 .azulInstalacion{
     display: flex;
     flex-direction: column;
-    background-image: radial-gradient(circle at 50% -3.03%, #7171b3 0, #354691 50%, #002170 100%);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(2,3,87,1) 35%, rgba(110,180,249,1) 100%);
     min-height: 500px;
     width: 100%;
     padding: 100px;
@@ -447,7 +447,7 @@ p {   /*Todos los parrafos tienen las mismas caracteristicas*/
 .azulRegistro{
     display: flex;
     flex-direction: column;
-    background-image: radial-gradient(circle at 50% -3.03%, #7171b3 0, #354691 50%, #002170 100%);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(2,3,87,1) 35%, rgba(110,180,249,1) 100%);
     min-height: 500px;
     width: 100%;
     padding: 100px;
@@ -531,7 +531,7 @@ p {   /*Todos los parrafos tienen las mismas caracteristicas*/
 .azulNadadores{
     display: flex;
     flex-direction: column;
-    background-image: radial-gradient(circle at 50% -3.03%, #7171b3 0, #354691 50%, #002170 100%);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(2,3,87,1) 35%, rgba(110,180,249,1) 100%);
     min-height: 500px;
     width: 100%;
     padding: 100px;
@@ -629,7 +629,7 @@ p {   /*Todos los parrafos tienen las mismas caracteristicas*/
 .azulContacto{
     display: flex;
     flex-direction: column;
-    background-image: radial-gradient(circle at 50% -3.03%, #7171b3 0, #354691 50%, #002170 100%);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(2,3,87,1) 35%, rgba(110,180,249,1) 100%);
     min-height: 500px;
     width: 100%;
     padding: 100px;
