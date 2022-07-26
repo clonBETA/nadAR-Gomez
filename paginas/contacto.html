@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nadAR | Contacto</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+
+<body> <!-- TODAS LAS IMAGENES ESTAN REDUCIDAS PARA PODER VERSE. NO SON LAS MEDIDAS FINALES-->
+
+    <header>
+
+        <nav>
+
+            <ul class="menu" >
+
+                <li>
+                    <a href="../index.html">         
+                        <img class="menu__imagen" src="../imagenes/logoMenu.png" alt=""> <!--A esto lo puse así para que se vea bien el el html. Pero tengo en cuenta la corrección que me habías hecho de separar el link de la iamgen-->
+                    </a> <!-- El icono es el link al inicio de la pagina -->
+                </li>  
+
+                <div class="menu__lista">
+
+                    <li>
+                        <a class="menu__texto" href="./instalaciones.html"> instalaciones </a> <!-- Link a instalaciones -->
+                    </li>                
+                    <li>
+                        <a class="menu__texto" href="./registro.html"> registro </a> <!-- Link a registro -->
+                    </li>               
+                    <li>
+                        <a class="menu__texto" href="./nadadores.html"> nadadores </a> <!-- Link a nadadores -->
+                    </li>
+                    <li>
+                        <a class="menu__texto" href="./contacto.html"> contacto </a> <!-- Link a contacto -->
+                    </li>
+
+                </div>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <main>
+        <section class="azulContacto">
+
+            <div class="azulContacto__escritos" >
+
+                <h1 class="azulContacto__titulo" >CONTACTO</h1>
+                <p class="azulContacto__parrafo" >Envíanos un mensaje con tu opinión sobre la experiencia para ayudarnos a mejorar y no te olvides de interactuar con nosotros en nuestas redes.</p>
+        
+            </div>
+
+            <div>
+                <!-- INSERTAR Comentario TWITTER 01 -->
+                <!-- INSERTAR Comentario TWITTER 02 -->
+            </div>
+        </section>
+
+        <section>
+
+            <form>
+
+                <div class="formulario" >
+
+                    <div class="formulario__datos" >
+
+                        <div >
+                            <label for="nombre"></label>
+                            <input class="formulario__nombre" type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" required>
+                        </div>
+            
+                        <div > 
+                            <label for="apellido"></label>
+                            <input class="formulario__apellido" type="text" id="apellido" name="apellido" placeholder="Ingrese su apellido" required>
+                        </div>
+                    </div>
+
+                    <div>
+                        <label for="email"></label>
+                        <input class="formulario__email" type="email" id="email" name="email" placeholder="Ingrese su email" required>
+                    </div>
+        
+                    <div>
+                        <label for="comentario"></label>
+                        <textarea class="formulario__comentario" name="comentario" placeholder="Escriba su comentario" id="comentario" required cols="30" rows="10"></textarea>
+                    </div>
+
+                    <div>
+                        <label class="formulario__noticias" for="">Desea recibir noticias en su bandeja de entrada?</label>
+                        <input type="checkbox" name="noticias" id="acepto">
+                    </div>
+        
+                    <div class="formulario__enviar">
+                        <input type="submit">
+                    </div>
+
+                </div>
+    
+            </form>
+        </section>
+
+        <section> <!-- Patrocinadores, NO VAN EN EL FOOTER -->
+            <div >
+                <h3 class="presentadores">Presentado por:</h3>
+            </div>
+            
+            <div>
+                <ul class="links">
+                    <li>
+                        <a href="https://www.argentina.gob.ar/cultura" target="_blank"> <!-- Link a Ministerio de cultura -->
+                            <img class="links__logoCultura" src="../imagenes/logoCultura.png" alt="">
+                        </a>
+                    </li>     
+
+                    <li>
+                        <a href="https://museomoderno.org/" target="_blank"> <!-- Link a Museo Moderno -->
+                            <img class="links__logoModerno" src="../imagenes/logoModerno.png" alt="">
+                        </a> 
+                    </li>    
+
+                    <li>
+                        <a href="https://mica.gob.ar/inicio" target="_blank"> <!-- Link a MICA -->
+                            <img class="links__logoMica" src="../imagenes/logoMica.png" alt="">
+                        </a> 
+                    </li>              
+                </ul>
+                    
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <div class="footer" >
+
+            <div>
+                <span class="footer__span">Todos los derechos reservados</span>
+            </div>
+
+            <ul class="footer__iconos" >
+                <li>
+                    <a href="#"> <!-- Link Twitter -->
+                        <img class="footer__redes" src="../imagenes/twitter.png" alt="Twitter" >
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#"> <!-- Link Instagram -->
+                        <img class="footer__redes" src="../imagenes/instagram.png" alt="Instagram">
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#"> <!-- Link Facebook -->
+                        <img class="footer__redes" src="../imagenes/facebook.png" alt="Facebook">
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </footer>
+
+</body>
+</html>

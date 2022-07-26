@@ -1,0 +1,840 @@
+/* Estilos - Web nadAR */
+
+*{             
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+p {   /*Todos los parrafos tienen las mismas caracteristicas*/
+    color: rgb(255, 255, 255);
+    font-size: medium;
+}
+
+
+
+/*------------------------------------------------------------------------HEADER------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------HEADER------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------HEADER------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------HEADER------------------------------------------------------------------------------*/
+
+
+
+/* Clase menu de navegacion */
+
+
+
+.menu{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu__lista{
+    display: flex;
+}
+
+.menu__texto{
+    color: rgb(131, 131, 131);
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+.menu__imagen{
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+
+
+/*------------------------------------------------------------------------HOME------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------HOME------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------HOME------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------HOME------------------------------------------------------------------------------*/
+
+
+
+/* Clase imagen de presentacion */
+
+.presentacion{
+    display: grid;
+    grid-template-columns: 100%;
+    width: 100%;
+}
+
+.presentacion__nadar{
+    width: 100%;
+}
+
+/* Clase video de presentacion */
+
+.presentacion__video{
+    width: 100%;
+    margin: 0%;
+}
+
+/* Clase parrafo azul HOME */
+
+.azulHome{
+    display: flex;
+    flex-wrap: wrap;
+    background-image: radial-gradient(circle at 50% -3.03%, #7171b3 0, #354691 50%, #002170 100%);
+    min-height: 500px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.azulHome__parrafo{
+    position: relative;
+    padding: 50px 100px 50px 100px;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+/* Clase imagenes vinculadas a paginas */
+
+
+.card{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    padding-top: 50px;
+    justify-content: center;
+}
+
+.card__tarjeta{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 30px;
+    margin: 0;
+    width: 100%;
+    /*padding: 0%;
+    margin: 0%;
+    border: 0px solid white;*/
+}
+
+.card__imagen{
+    position: relative;
+    width: 80%;
+}
+
+.card__titulo{
+    color: rgb(111, 129, 187);
+    font-size: xx-large;
+    padding: 10px;
+}
+
+.card__span{
+
+    color: rgb(131, 131, 131);
+    font-size: 20px;
+    font-weight: lighter;
+    padding: 10px;
+}
+
+
+/* Clase organizaciones externas */
+
+.presentadores{
+    color: rgb(124, 124, 124);
+    font-size: x-large;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.links{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 100px;
+}
+
+.links__logoCultura{
+    margin: 20px;
+    width: 180px;
+}
+
+.links__logoModerno{
+    margin: 20px;
+    width: 180px;
+}
+
+.links__logoMica{
+    margin: 20px;
+    width: 180px;
+}
+
+
+/*------------------------------------------------------------------------INSTALACIONES------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------INSTALACIONES------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------INSTALACIONES------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------INSTALACIONES------------------------------------------------------------------------------*/
+
+
+
+
+/* Clase parrafo azul INSTALACION */
+
+.instalacionPresentacion{
+    display: grid;
+    grid-template-columns: 100%;
+    width: 100%;
+    justify-content: center;
+}
+
+.azulInstalacion{
+    display: flex;
+    flex-direction: column;
+    background-image: radial-gradient(circle at 50% -3.03%, #7171b3 0, #354691 50%, #002170 100%);
+    min-height: 500px;
+    width: 100%;
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.azulInstalacion__escritos{
+    display: flex;
+    flex-direction: column;
+}
+
+.azulInstalacion__titulo{
+    position: relative;
+    color: rgb(255, 255, 255);
+    text-align: left; 
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.azulInstalacion__parrafo{
+    position: relative;
+    text-align: left;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+
+/* Clase Ubicacion CERCANA */
+
+
+
+.ubicacion{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    justify-content: center;
+}
+
+.ubicacion__card{
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+}
+ 
+.ubicacion__encuentra{
+    position: relative;
+    color: rgb(83, 108, 122);
+    padding-bottom: 80px;
+    justify-content: left;
+}
+
+
+.ubicacion__ahora{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.ubicacion__imagen{
+    width: 50px;
+    padding-right: 10px;
+}
+
+.ubicacion__texto{
+    color: rgb(83, 108, 122);
+    font-size: x-large;
+}
+
+/* Clase BUENOS AIRES*/
+
+
+.buenosAires__card{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 50px;
+}
+
+.buenosAires__preview{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buenosAires__imagen{
+    position: relative;
+    width: 100%;
+}
+
+.buenosAires__texto{
+    position: absolute;
+    color:white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.buenosAires__mapa{
+    width: 100%;
+    height: 100%;
+}
+
+/** Clase MEXICO*/
+
+
+.mexico__card{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 50px;
+}
+
+.mexico__preview{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mexico__imagen{
+    position: relative;
+    width: 100%;
+}
+
+.mexico__texto{
+    position: absolute;
+    color:white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.mexico__mapa{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Clase NUEVA YORK*/
+
+
+
+.nuevaYork__card{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 50px;
+}
+
+.nuevaYork__preview{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nuevaYork__imagen{
+    position: relative;
+    width: 100%;
+}
+
+.nuevaYork__texto{
+    position: absolute;
+    color:white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.nuevaYork__mapa{
+    width: 100%;
+    height: 100%;
+}
+
+/* Clase PRONTO*/
+
+.pronto{
+    display: flex;
+    width: 100%;
+    margin-top: 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+.pronto__imagen{
+    width: 50px;
+    padding-right: 10px;
+}
+
+.pronto__texto{
+    color: rgb(83, 108, 122);
+    font-size: x-large;
+    text-align: left;
+}
+
+/* Clase PROXIMAS Ciudades */
+
+.proximas{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    margin-top: 150px;
+    justify-content: space-evenly;
+}
+
+.proximas__preview{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.proximas__imagen{
+    position: relative;
+    width: 100%;
+}
+
+.proximas__texto{
+    position: absolute;
+    color:white;
+    font-size: 50px;
+}
+
+
+
+
+
+
+/*------------------------------------------------------------------------REGISTRO------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------REGISTRO------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------REGISTRO------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------REGISTRO------------------------------------------------------------------------------*/
+
+
+
+/* Clase parrafo azul registro */
+
+.azulRegistro{
+    display: flex;
+    flex-direction: column;
+    background-image: radial-gradient(circle at 50% -3.03%, #7171b3 0, #354691 50%, #002170 100%);
+    min-height: 500px;
+    width: 100%;
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.azulRegistro__escritos{
+    display: flex;
+    flex-direction: column;
+}
+
+.azulRegistro__titulo{
+    position: relative;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.azulRegistro__parrafo{
+    position: relative;
+    text-align: left;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+
+/* Clase PROCESO DE REGISTRO */
+
+.secuencia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.secuencia__listado{
+    display: flex;
+    flex-direction: column;
+}
+
+.secuencia__paso{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.secuencia__imagen{
+    height: 80px;
+    margin-right: 20px;
+}
+
+.secuencia__texto{
+    position: relative;
+    color: rgb(121, 131, 163);
+    text-align: left;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.qr{
+    position: relative;
+    height: 500px;
+    padding: 50px;
+}
+
+
+
+
+/*------------------------------------------------------------------------NADADORES------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------NADADORES------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------NADADORES------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------NADADORES------------------------------------------------------------------------------*/
+
+
+/* Clase parrafo azul nadadores */
+
+.azulNadadores{
+    display: flex;
+    flex-direction: column;
+    background-image: radial-gradient(circle at 50% -3.03%, #7171b3 0, #354691 50%, #002170 100%);
+    min-height: 500px;
+    width: 100%;
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.azulNadadores__escritos{
+    display: flex;
+    flex-direction: column;
+}
+
+.azulNadadores__titulo{
+    position: relative;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.azulNadadores__parrafo{
+    position: relative;
+    text-align: left;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+
+/* Calse PECES */
+
+.peces{
+    width: 100%;
+}
+
+
+/* Clase CONTADOR*/
+
+.contador{
+    display: flex;
+    flex-direction: column;
+}
+
+.contador__titulo{
+    position: relative;
+    color: rgb(121, 131, 163);
+    text-align: center;
+    font-size: 90px;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+.contador__informacion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.contador__cartel{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.contador__valor{
+    position: relative;
+    color: rgb(121, 131, 163);
+    text-align: center;
+    font-size: 250px;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+.contador__texto{
+    position: relative;
+    color: rgb(121, 131, 163);
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+/*------------------------------------------------------------------------CONTACTO------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------CONTACTO------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------CONTACTO------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------CONTACTO------------------------------------------------------------------------------*/
+
+
+
+/* Clase parrafo azul contacto */
+
+.azulContacto{
+    display: flex;
+    flex-direction: column;
+    background-image: radial-gradient(circle at 50% -3.03%, #7171b3 0, #354691 50%, #002170 100%);
+    min-height: 500px;
+    width: 100%;
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.azulContacto__escritos{
+    display: flex;
+    flex-direction: column;
+}
+
+.azulContacto__titulo{
+    position: relative;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.azulContacto__parrafo{
+    position: relative;
+    text-align: left;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+
+/* Clase FORMULARIO */
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.formulario__datos{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.formulario__nombre{
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+.formulario__apellido{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+.formulario__email{
+    width: 640px;
+}
+
+.formulario__noticias{
+    color: rgb(121, 131, 163);
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.formulario__comentario{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 640px;
+}
+
+.formulario__enviar{
+    margin-top: 20px;
+}
+
+
+/*------------------------------------------------------------------------FOOTER------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------FOOTER------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------FOOTER------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------FOOTER------------------------------------------------------------------------------*/
+
+
+
+/* Clase footer */
+
+.footer{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: rgb(92, 92, 92);
+    height: 100px;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.footer__span{
+    color: rgb(241, 241, 241);
+    font-size: 12px;
+    text-align: center;
+}
+
+.footer__iconos{
+    list-style: none;
+    display: flex;
+}
+
+.footer__redes{
+    width: 50px;
+}
+
+
+
+
+
+/*------------------------------- MEDIAS QUERIES---------------------------*/
+/*------------------------------- MEDIAS QUERIES---------------------------*/
+/*------------------------------- MEDIAS QUERIES---------------------------*/
+/*------------------------------- MEDIAS QUERIES---------------------------*/
+
+
+/*TABLET*/
+
+@media screen and (max-width:1023px) {   
+
+    .menu{
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 15px;
+    }
+
+    .menu__lista{
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .buenosAires__card{
+        grid-template-columns: none;
+        grid-template-rows: repeat(2, 1fr)
+    }
+
+    .mexico__card{
+        grid-template-columns: none;
+        grid-template-rows: repeat(2, 1fr)
+    }
+
+    .nuevaYork__card{
+        grid-template-columns: none;
+        grid-template-rows: repeat(2, 1fr)
+    }
+
+    .buenosAires__texto{  
+        font-size: 30px;
+    }
+
+    .mexico__texto{  
+        font-size: 30px;
+    }
+
+    .nuevaYork__texto{  
+        font-size: 30px;
+    }
+
+    .card__titulo{
+        font-size: 20px;
+    }
+
+    .proximas{
+        justify-content: space-evenly;
+    }
+
+}
+
+
+
+/*MOBILE*/
+
+
+@media screen and (max-width:599px) {
+
+    .menu__texto{
+        font-size: 13px;
+    }
+
+    .card{
+        grid-template-columns: none;
+        grid-template-rows: repeat(3, 1fr)
+    }
+
+    .footer{
+        grid-template-columns: none;
+        grid-template-rows: repeat(2, 1fr)
+    }
+
+    .links{
+        grid-template-columns: none;
+        grid-template-rows: repeat(3, 1fr)
+    }
+
+    .proximas{
+        grid-template-columns: none;
+        grid-template-rows: repeat(2, 1fr)
+    }
+
+}
