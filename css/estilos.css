@@ -167,10 +167,10 @@ p {   /*Todos los parrafos tienen las mismas caracteristicas*/
     width: 100%;
     justify-items: center;
     align-content: center;
+    justify-content: center;
     list-style: none;
     margin-bottom: 100px;
     padding-left: 0%;
-
 }
 
 .links__logoCultura{
