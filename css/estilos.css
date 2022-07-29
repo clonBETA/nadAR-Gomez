@@ -1,6 +1,6 @@
 /* Estilos - Web nadAR */
 
-*{             
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,7 +12,8 @@ body{
 }
 */
 
-p {   /*Todos los parrafos tienen las mismas caracteristicas*/
+p {
+    /*Todos los parrafos tienen las mismas caracteristicas*/
     color: rgb(255, 255, 255);
     font-size: medium;
 }
@@ -31,7 +32,7 @@ p {   /*Todos los parrafos tienen las mismas caracteristicas*/
 
 
 
-.menu{
+.menu {
     display: flex;
     list-style: none;
     align-items: center;
@@ -40,11 +41,11 @@ p {   /*Todos los parrafos tienen las mismas caracteristicas*/
     padding-left: 0%;
 }
 
-.menu__lista{
+.menu__lista {
     display: flex;
 }
 
-.menu__texto{
+.menu__texto {
     color: rgb(131, 131, 131);
     font-size: 15px;
     font-weight: bold;
@@ -53,7 +54,7 @@ p {   /*Todos los parrafos tienen las mismas caracteristicas*/
     text-decoration: none;
 }
 
-.menu__imagen{
+.menu__imagen {
     height: 50px;
     padding-left: 10px;
     padding-right: 10px;
@@ -70,38 +71,39 @@ p {   /*Todos los parrafos tienen las mismas caracteristicas*/
 
 /* Clase imagen de presentacion */
 
-.presentacion{
+.presentacion {
     display: grid;
     grid-template-columns: 100%;
     width: 100%;
 }
 
-.presentacion__nadar{
+.presentacion__nadar {
     width: 100%;
 }
 
 /* Clase video de presentacion */
 
-.presentacion__video{
+.presentacion__video {
     width: 100%;
     margin: 0%;
 }
 
 /* Clase parrafo azul HOME */
 
-.azulHome{
+.azulHome {
     display: flex;
-    flex-wrap: wrap;
-    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(2,3,87,1) 35%, rgba(110,180,249,1) 100%);
+    flex-wrap: column;
+    background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(2, 3, 87, 1) 35%, rgba(110, 180, 249, 1) 100%);
     min-height: 500px;
     width: 100%;
+    padding: 100px;
     justify-content: center;
     align-items: center;
 }
 
-.azulHome__parrafo{
+.azulHome__parrafo {
     position: relative;
-    padding: 50px 100px 50px 100px;
+
     text-align: justify;
     font-size: 20px;
     font-weight: lighter;
@@ -110,7 +112,7 @@ p {   /*Todos los parrafos tienen las mismas caracteristicas*/
 /* Clase imagenes vinculadas a paginas */
 
 
-.card{
+.card {
     display: grid;
     grid-template-columns: 33% 33% 33%;
     padding-top: 50px;
@@ -119,7 +121,7 @@ p {   /*Todos los parrafos tienen las mismas caracteristicas*/
     border: none;
 }
 
-.card__tarjeta{
+.card__tarjeta {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -131,18 +133,18 @@ p {   /*Todos los parrafos tienen las mismas caracteristicas*/
     border: 0px solid white;*/
 }
 
-.card__imagen{
+.card__imagen {
     position: relative;
     width: 80%;
 }
 
-.card__titulo{
+.card__titulo {
     color: rgb(111, 129, 187);
     font-size: xx-large;
     padding: 10px;
 }
 
-.card__span{
+.card__span {
 
     color: rgb(131, 131, 131);
     font-size: 20px;
@@ -153,7 +155,7 @@ p {   /*Todos los parrafos tienen las mismas caracteristicas*/
 
 /* Clase organizaciones externas */
 
-.presentadores{
+.presentadores {
     color: rgb(124, 124, 124);
     font-size: x-large;
     text-align: center;
@@ -161,28 +163,28 @@ p {   /*Todos los parrafos tienen las mismas caracteristicas*/
     border-top: 1px solid rgb(212, 212, 212);
 }
 
-.links{
+.links {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     width: 100%;
     justify-items: center;
-    align-content: center;
     justify-content: center;
     list-style: none;
+    margin-top: 50px;
     margin-bottom: 100px;
     padding-left: 0%;
 }
 
-.links__logoCultura{
-    width: 100%;
+.links__logoCultura {
+    height: 70%;
 }
 
-.links__logoModerno{
-    width: 100%;
+.links__logoModerno {
+    height: 70%;
 }
 
-.links__logoMica{
-    width: 100%;
+.links__logoMica {
+    height: 70%;
 }
 
 
@@ -196,17 +198,17 @@ p {   /*Todos los parrafos tienen las mismas caracteristicas*/
 
 /* Clase parrafo azul INSTALACION */
 
-.instalacionPresentacion{
+.instalacionPresentacion {
     display: grid;
     grid-template-columns: 100%;
     width: 100%;
     justify-content: center;
 }
 
-.azulInstalacion{
+.azulInstalacion {
     display: flex;
     flex-direction: column;
-    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(2,3,87,1) 35%, rgba(110,180,249,1) 100%);
+    background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(2, 3, 87, 1) 35%, rgba(110, 180, 249, 1) 100%);
     min-height: 500px;
     width: 100%;
     padding: 100px;
@@ -214,23 +216,24 @@ p {   /*Todos los parrafos tienen las mismas caracteristicas*/
     align-items: center;
 }
 
-.azulInstalacion__escritos{
+.azulInstalacion__escritos {
     display: flex;
     flex-direction: column;
+
 }
 
-.azulInstalacion__titulo{
+.azulInstalacion__titulo {
     position: relative;
     color: rgb(255, 255, 255);
-    text-align: left; 
+    text-align: left;
     font-size: 25px;
     font-weight: bold;
     padding-bottom: 30px;
 }
 
-.azulInstalacion__parrafo{
+.azulInstalacion__parrafo {
     position: relative;
-    text-align: left;
+    text-align: justify;
     font-size: 20px;
     font-weight: lighter;
 }
@@ -240,20 +243,20 @@ p {   /*Todos los parrafos tienen las mismas caracteristicas*/
 
 
 
-.ubicacion{
+.ubicacion {
     display: flex;
     margin-top: 100px;
     margin-bottom: 100px;
     justify-content: center;
 }
 
-.ubicacion__card{
+.ubicacion__card {
     display: flex;
     flex-direction: column;
     padding: 60px;
 }
- 
-.ubicacion__encuentra{
+
+.ubicacion__encuentra {
     position: relative;
     color: rgb(83, 108, 122);
     padding-bottom: 80px;
@@ -261,19 +264,19 @@ p {   /*Todos los parrafos tienen las mismas caracteristicas*/
 }
 
 
-.ubicacion__ahora{
+.ubicacion__ahora {
     position: relative;
     display: flex;
     align-items: center;
     justify-content: left;
 }
 
-.ubicacion__imagen{
+.ubicacion__imagen {
     width: 50px;
     padding-right: 10px;
 }
 
-.ubicacion__texto{
+.ubicacion__texto {
     color: rgb(83, 108, 122);
     font-size: x-large;
 }
@@ -281,7 +284,7 @@ p {   /*Todos los parrafos tienen las mismas caracteristicas*/
 /* Clase BUENOS AIRES*/
 
 
-.buenosAires__card{
+.buenosAires__card {
     display: grid;
     grid-template-columns: 50% 50%;
     width: 100%;
@@ -290,25 +293,25 @@ p {   /*Todos los parrafos tienen las mismas caracteristicas*/
     margin-bottom: 50px;
 }
 
-.buenosAires__preview{
+.buenosAires__preview {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.buenosAires__imagen{
+.buenosAires__imagen {
     position: relative;
     width: 100%;
 }
 
-.buenosAires__texto{
+.buenosAires__texto {
     position: absolute;
-    color:white;
+    color: white;
     font-size: 50px;
     text-align: center;
 }
 
-.buenosAires__mapa{
+.buenosAires__mapa {
     width: 100%;
     height: 100%;
 }
@@ -316,7 +319,7 @@ p {   /*Todos los parrafos tienen las mismas caracteristicas*/
 /** Clase MEXICO*/
 
 
-.mexico__card{
+.mexico__card {
     display: grid;
     grid-template-columns: 50% 50%;
     width: 100%;
@@ -325,25 +328,25 @@ p {   /*Todos los parrafos tienen las mismas caracteristicas*/
     margin-bottom: 50px;
 }
 
-.mexico__preview{
+.mexico__preview {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.mexico__imagen{
+.mexico__imagen {
     position: relative;
     width: 100%;
 }
 
-.mexico__texto{
+.mexico__texto {
     position: absolute;
-    color:white;
+    color: white;
     font-size: 50px;
     text-align: center;
 }
 
-.mexico__mapa{
+.mexico__mapa {
     width: 100%;
     height: 100%;
 }
@@ -353,7 +356,7 @@ p {   /*Todos los parrafos tienen las mismas caracteristicas*/
 
 
 
-.nuevaYork__card{
+.nuevaYork__card {
     display: grid;
     grid-template-columns: 50% 50%;
     width: 100%;
@@ -362,32 +365,32 @@ p {   /*Todos los parrafos tienen las mismas caracteristicas*/
     margin-bottom: 50px;
 }
 
-.nuevaYork__preview{
+.nuevaYork__preview {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.nuevaYork__imagen{
+.nuevaYork__imagen {
     position: relative;
     width: 100%;
 }
 
-.nuevaYork__texto{
+.nuevaYork__texto {
     position: absolute;
-    color:white;
+    color: white;
     font-size: 50px;
     text-align: center;
 }
 
-.nuevaYork__mapa{
+.nuevaYork__mapa {
     width: 100%;
     height: 100%;
 }
 
 /* Clase PRONTO*/
 
-.pronto{
+.pronto {
     display: flex;
     width: 100%;
     margin-top: 150px;
@@ -395,12 +398,12 @@ p {   /*Todos los parrafos tienen las mismas caracteristicas*/
     justify-content: center;
 }
 
-.pronto__imagen{
+.pronto__imagen {
     width: 50px;
     padding-right: 10px;
 }
 
-.pronto__texto{
+.pronto__texto {
     color: rgb(83, 108, 122);
     font-size: x-large;
     text-align: left;
@@ -408,7 +411,7 @@ p {   /*Todos los parrafos tienen las mismas caracteristicas*/
 
 /* Clase PROXIMAS Ciudades */
 
-.proximas{
+.proximas {
     display: grid;
     grid-template-columns: 45% 45%;
     margin-top: 150px;
@@ -416,21 +419,21 @@ p {   /*Todos los parrafos tienen las mismas caracteristicas*/
     justify-content: space-evenly;
 }
 
-.proximas__preview{
+.proximas__preview {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 
-.proximas__imagen{
+.proximas__imagen {
     position: relative;
     width: 100%;
 }
 
-.proximas__texto{
+.proximas__texto {
     position: absolute;
-    color:white;
+    color: white;
     font-size: 50px;
 }
 
@@ -448,10 +451,10 @@ p {   /*Todos los parrafos tienen las mismas caracteristicas*/
 
 /* Clase parrafo azul registro */
 
-.azulRegistro{
+.azulRegistro {
     display: flex;
     flex-direction: column;
-    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(2,3,87,1) 35%, rgba(110,180,249,1) 100%);
+    background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(2, 3, 87, 1) 35%, rgba(110, 180, 249, 1) 100%);
     min-height: 500px;
     width: 100%;
     padding: 100px;
@@ -459,12 +462,12 @@ p {   /*Todos los parrafos tienen las mismas caracteristicas*/
     align-items: center;
 }
 
-.azulRegistro__escritos{
+.azulRegistro__escritos {
     display: flex;
     flex-direction: column;
 }
 
-.azulRegistro__titulo{
+.azulRegistro__titulo {
     position: relative;
     color: rgb(255, 255, 255);
     text-align: left;
@@ -473,9 +476,9 @@ p {   /*Todos los parrafos tienen las mismas caracteristicas*/
     padding-bottom: 30px;
 }
 
-.azulRegistro__parrafo{
+.azulRegistro__parrafo {
     position: relative;
-    text-align: left;
+    text-align: justify;
     font-size: 20px;
     font-weight: lighter;
 }
@@ -483,43 +486,47 @@ p {   /*Todos los parrafos tienen las mismas caracteristicas*/
 
 /* Clase PROCESO DE REGISTRO */
 
-.secuencia{
-    display: flex;
+.secuencia {
+    display: grid;
+    grid-template-columns: 40% 40%;
     align-items: center;
+    justify-items: center;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 6rem;
     margin-bottom: 6rem;
 }
 
-.secuencia__listado{
+.secuencia__listado {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-content: center;
 }
 
-.secuencia__paso{
+.secuencia__paso {
     display: flex;
     align-items: center;
     padding-top: 10px;
     padding-bottom: 10px;
+    align-items: center;
 }
 
-.secuencia__imagen{
-    height: 80px;
+.secuencia__imagen {
+    position: relative;
+    width: 10%;
     margin-right: 20px;
 }
 
-.secuencia__texto{
+.secuencia__texto {
     position: relative;
     color: rgb(121, 131, 163);
     text-align: left;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
 }
 
-.qr{
-    position: relative;
-    height: 500px;
-    padding: 50px;
+.qr {
+    width: 60%;
 }
 
 
@@ -533,10 +540,10 @@ p {   /*Todos los parrafos tienen las mismas caracteristicas*/
 
 /* Clase parrafo azul nadadores */
 
-.azulNadadores{
+.azulNadadores {
     display: flex;
     flex-direction: column;
-    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(2,3,87,1) 35%, rgba(110,180,249,1) 100%);
+    background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(2, 3, 87, 1) 35%, rgba(110, 180, 249, 1) 100%);
     min-height: 500px;
     width: 100%;
     padding: 100px;
@@ -544,12 +551,12 @@ p {   /*Todos los parrafos tienen las mismas caracteristicas*/
     align-items: center;
 }
 
-.azulNadadores__escritos{
+.azulNadadores__escritos {
     display: flex;
     flex-direction: column;
 }
 
-.azulNadadores__titulo{
+.azulNadadores__titulo {
     position: relative;
     color: rgb(255, 255, 255);
     text-align: left;
@@ -558,9 +565,9 @@ p {   /*Todos los parrafos tienen las mismas caracteristicas*/
     padding-bottom: 30px;
 }
 
-.azulNadadores__parrafo{
+.azulNadadores__parrafo {
     position: relative;
-    text-align: left;
+    text-align: justify;
     font-size: 20px;
     font-weight: lighter;
 }
@@ -568,56 +575,65 @@ p {   /*Todos los parrafos tienen las mismas caracteristicas*/
 
 /* Calse PECES */
 
-.pecesTop{
+.gridContador {
+    display: grid;
+    grid-template-columns: 100%;
+    margin-bottom: 6rem;
+    margin-top: 6rem;
+}
+
+.pecesTop {
     width: 100%;
 }
 
-.pecesBottom{
+.pecesBottom {
     width: 100%;
-    padding-bottom: 6rem;
 }
 
 
 /* Clase CONTADOR*/
 
-.contador{
+.contador {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
-.contador__titulo{
+.contador__titulo {
     position: relative;
     color: rgb(121, 131, 163);
     text-align: center;
     font-size: 90px;
     font-weight: bold;
     margin-top: 100px;
+    width: 100%;
 }
 
-.contador__informacion{
+.contador__informacion {
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 100px;
+    width: 100;
 }
 
-.contador__cartel{
+.contador__cartel {
     display: flex;
     flex-direction: column;
     margin-left: 40px;
     margin-right: 40px;
 }
 
-.contador__valor{
+.contador__valor {
     position: relative;
     color: rgb(121, 131, 163);
     text-align: center;
-    font-size: 250px;
+    font-size: 200px;
     font-weight: bold;
     margin-top: 100px;
 }
 
-.contador__texto{
+.contador__texto {
     position: relative;
     color: rgb(121, 131, 163);
     text-align: center;
@@ -636,10 +652,10 @@ p {   /*Todos los parrafos tienen las mismas caracteristicas*/
 
 /* Clase parrafo azul contacto */
 
-.azulContacto{
+.azulContacto {
     display: flex;
     flex-direction: column;
-    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(2,3,87,1) 35%, rgba(110,180,249,1) 100%);
+    background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(2, 3, 87, 1) 35%, rgba(110, 180, 249, 1) 100%);
     min-height: 500px;
     width: 100%;
     padding: 100px;
@@ -647,12 +663,12 @@ p {   /*Todos los parrafos tienen las mismas caracteristicas*/
     align-items: center;
 }
 
-.azulContacto__escritos{
+.azulContacto__escritos {
     display: flex;
     flex-direction: column;
 }
 
-.azulContacto__titulo{
+.azulContacto__titulo {
     position: relative;
     color: rgb(255, 255, 255);
     text-align: left;
@@ -661,47 +677,75 @@ p {   /*Todos los parrafos tienen las mismas caracteristicas*/
     padding-bottom: 30px;
 }
 
-.azulContacto__parrafo{
+.azulContacto__parrafo {
     position: relative;
-    text-align: left;
     font-size: 20px;
     font-weight: lighter;
+    text-align:justify;
 }
 
 
 /* Clase FORMULARIO */
 
-.formulario{
+.formulario {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
     padding-bottom: 6rem;
+
 }
 
-.formulario__datos{
+.formulario__datos {
     display: flex;
     align-items: center;
+    justify-content: center;
     margin-top: 100px;
-}
-
-.formulario__nombre{
-    margin-right: 20px;
-    margin-bottom: 20px;
-    width: 300px;
-}
-
-.formulario__apellido{
-    margin-left: 20px;
-    margin-bottom: 20px;
-    width: 300px;
-}
-
-.formulario__email{
     width: 640px;
 }
 
-.formulario__noticias{
+.formulario__nombre {
+    margin-bottom: 20px;
+    width: 315px;
+    border: 2px rgb(111, 129, 187) solid;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+}
+
+.formulario__apellido {
+    margin-bottom: 20px;
+    width: 315px;
+    border: 2px rgb(111, 129, 187) solid;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+}
+
+.formulario__email {
+    width: 640px;
+    border: 2px rgb(111, 129, 187) solid;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+}
+
+.formulario__comentario {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 640px;
+    border: 2px rgb(111, 129, 187) solid;
+    padding-left: 20px;
+    padding-top: 5px;
+    border-radius: 15px;
+}
+
+.formulario__noticias {
     color: rgb(121, 131, 163);
     text-align: left;
     font-size: 15px;
@@ -710,13 +754,7 @@ p {   /*Todos los parrafos tienen las mismas caracteristicas*/
     margin-bottom: 20px;
 }
 
-.formulario__comentario{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 640px;
-}
-
-.formulario__enviar{
+.formulario__enviar {
     margin-top: 20px;
 }
 
@@ -730,7 +768,7 @@ p {   /*Todos los parrafos tienen las mismas caracteristicas*/
 
 /* Clase footer */
 
-.footer{
+.footer {
     display: grid;
     grid-template-columns: 50% 50%;
     background-color: rgb(92, 92, 92);
@@ -741,20 +779,20 @@ p {   /*Todos los parrafos tienen las mismas caracteristicas*/
     width: 100%;
 }
 
-.footer__span{
+.footer__span {
     color: rgb(241, 241, 241);
     font-size: 12px;
     text-align: center;
 }
 
-.footer__iconos{
+.footer__iconos {
     list-style: none;
     display: flex;
     margin-bottom: 0%;
     padding-left: 0%;
 }
 
-.footer__redes{
+.footer__redes {
     width: 50px;
 }
 
@@ -770,53 +808,91 @@ p {   /*Todos los parrafos tienen las mismas caracteristicas*/
 
 /*TABLET*/
 
-@media screen and (max-width:1023px) {   
+@media screen and (max-width:1023px) {
 
-    .menu{
+    .menu {
         flex-direction: column;
         gap: 10px;
         margin-bottom: 15px;
     }
 
-    .menu__lista{
+    .menu__lista {
         width: 100%;
         justify-content: space-evenly;
     }
 
-    .buenosAires__card{
+    .buenosAires__card {
         grid-template-columns: none;
         grid-template-rows: repeat(2, 1fr)
     }
 
-    .mexico__card{
+    .mexico__card {
         grid-template-columns: none;
         grid-template-rows: repeat(2, 1fr)
     }
 
-    .nuevaYork__card{
+    .nuevaYork__card {
         grid-template-columns: none;
         grid-template-rows: repeat(2, 1fr)
     }
 
-    .buenosAires__texto{  
+    .buenosAires__texto {
         font-size: 30px;
     }
 
-    .mexico__texto{  
+    .mexico__texto {
         font-size: 30px;
     }
 
-    .nuevaYork__texto{  
+    .nuevaYork__texto {
         font-size: 30px;
     }
 
-    .card__titulo{
+    .card__titulo {
         font-size: 20px;
     }
 
-    .proximas{
+    .proximas {
         justify-content: space-evenly;
     }
+
+    .gridContador {
+        margin-bottom: 3rem;
+        margin-top: 3rem;
+    }
+
+    .contador__titulo {
+        font-size: 40px;
+    }
+
+    .contador__valor {
+        font-size: 70px;
+    }
+
+    .contador__texto {
+        font-size: 40px;
+    }
+
+    .formulario__datos{
+        flex-direction: column;
+    }
+
+    .formulario__nombre{
+        width: 400px;
+    }
+    
+    .formulario__apellido{
+        width: 400px;
+    }
+    
+    .formulario__email{
+        width: 400px;
+    }
+
+    .formulario__comentario{
+        width: 400px;
+    }
+
 
 }
 
@@ -827,52 +903,137 @@ p {   /*Todos los parrafos tienen las mismas caracteristicas*/
 
 @media screen and (max-width:599px) {
 
-    .azulHome__parrafo{
+    .azulHome{
+        padding: 20px;
+    }
+
+    .azulHome__parrafo {
         font-size: 17px;
     }
 
-    .azulInstalacion__parrafo{
+    .azulInstalacion{
+        padding: 20px;
+    }
+
+    .azulRegistro{
+        padding: 20px;
+    }
+
+    .azulInstalacion__parrafo {
         font-size: 17px;
     }
 
-    .azulNadadores__parrafo{
+    .azulNadadores{
+        padding: 20px;
+    }
+
+    .azulNadadores__parrafo {
         font-size: 17px;
     }
 
-    .azulRegistro__parrafo{
+    .azulRegistro__parrafo {
         font-size: 17px;
     }
 
-    .azulContacto__parrafo{
+    .azulContacto{
+        padding: 20px;
+    }
+
+    .azulContacto__parrafo {
         font-size: 17px;
     }
 
-    .menu__texto{
-        font-size: 13px;
+    .menu__texto {
+        font-size: 12px;
+        padding-left: 7px;
+        padding-right: 7px;
     }
 
-    .card{
+    .card {
         grid-template-columns: none;
         grid-template-rows: repeat(3, 1fr)
     }
 
-    .footer{
+    .footer {
         grid-template-columns: none;
         grid-template-rows: repeat(2, 1fr)
     }
 
-    .links{
+    .links {
         grid-template-columns: none;
         grid-template-rows: repeat(3, 1fr);
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
-    .proximas{
+    .proximas {
         grid-template-columns: none;
         grid-template-rows: repeat(2, 1fr)
     }
 
-    .footer__iconos{
+    .footer__iconos {
         margin-bottom: 10px;
+    }
+
+    .secuencia {
+        grid-template-columns: none;
+        grid-template-rows: repeat(2, 1fr);
+        justify-items: center;
+        margin-top: 50px;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .secuencia__listado {
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-bottom: 50px;
+    }
+
+    .secuencia__texto {
+        font-size: 15px;
+    }
+
+    .gridContador {
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+
+    .contador__titulo {
+        font-size: 20px;
+    }
+
+    .contador__valor {
+        font-size: 50px;
+    }
+
+    .contador__texto {
+        font-size: 20px;
+    }
+
+    .formulario__datos{
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .formulario__nombre{
+        width: 300px;
+    }
+    
+    .formulario__apellido{
+        width: 300px;
+    }
+    
+    .formulario__email{
+        width: 300px;
+    }
+
+    .formulario__comentario{
+        width: 300px;
+    }
+    
+    .formulario__noticias{
+        font-size: 10px;
     }
 
 }
