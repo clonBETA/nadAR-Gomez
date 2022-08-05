@@ -1,0 +1,109 @@
+.azulNadadores {
+    display: flex;
+    flex-direction: column;
+    background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(2, 3, 87, 1) 35%, rgba(110, 180, 249, 1) 100%);
+    min-height: 500px;
+    width: 100%;
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.azulNadadores__escritos {
+    display: flex;
+    flex-direction: column;
+}
+
+.azulNadadores__titulo {
+    position: relative;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.azulNadadores__parrafo {
+    position: relative;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+
+/* Calse PECES */
+
+.gridContador {
+    display: grid;
+    grid-template-columns: 100%;
+    margin-bottom: 6rem;
+    margin-top: 6rem;
+}
+
+.pecesTop {
+    width: 100%;
+}
+
+.pecesBottom {
+    width: 100%;
+}
+
+
+/* Clase CONTADOR*/
+
+.contador {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.contador__titulo {
+    position: relative;
+    color: rgb(121, 131, 163);
+    text-align: center;
+    font-size: 90px;
+    font-weight: bold;
+    margin-top: 100px;
+    width: 100%;
+}
+
+.contador__informacion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 100px;
+    width: 100;    
+}
+
+
+.contador__cartel {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.contador__valor {
+    position: relative;
+    color: rgb(121, 131, 163);
+    text-align: center;
+    font-size: 200px;
+    font-weight: bold;
+    margin-top: 100px;
+    transition: color 0.1s;
+    transition: font-size 0.1s;
+}
+
+.contador__valor:hover{
+    color: royalblue;
+    font-size: 220px;
+}
+
+.contador__texto {
+    position: relative;
+    color: rgb(121, 131, 163);
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    margin-top: 10px;
+}

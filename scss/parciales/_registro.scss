@@ -1,0 +1,82 @@
+.azulRegistro {
+    display: flex;
+    flex-direction: column;
+    background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(2, 3, 87, 1) 35%, rgba(110, 180, 249, 1) 100%);
+    min-height: 500px;
+    width: 100%;
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.azulRegistro__escritos {
+    display: flex;
+    flex-direction: column;
+}
+
+.azulRegistro__titulo {
+    position: relative;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.azulRegistro__parrafo {
+    position: relative;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+
+/* Clase PROCESO DE REGISTRO */
+
+.secuencia {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+.secuencia__listado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.secuencia__paso {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+.secuencia__imagen {
+    position: relative;
+    width: 10%;
+    margin-right: 20px;
+}
+
+.secuencia__texto {
+    position: relative;
+    color: rgb(121, 131, 163);
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.qr {
+    width: 60%;
+    transition: width 0.1s;
+}
+
+.qr:hover{
+    width: 70%;
+}

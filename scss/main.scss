@@ -1,4 +1,9 @@
-.prueba{
-    color: red;
-    text-decoration: none;
-}
+@import "./parciales/_header.scss";
+@import "./parciales/_home.scss";
+@import "./parciales/_instalaciones.scss";
+@import "./parciales/_registro.scss";
+@import "./parciales/_nadadores.scss";
+@import "./parciales/_contacto.scss";
+@import "./parciales/_extras.scss";
+@import "./parciales/_footer.scss";
+@import "./parciales/_media-queries.scss";

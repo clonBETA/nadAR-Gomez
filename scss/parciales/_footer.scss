@@ -1,0 +1,30 @@
+
+/* FOOTER */
+
+.footer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: rgb(92, 92, 92);
+    height: 100px;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.footer__span {
+    color: rgb(241, 241, 241);
+    font-size: 12px;
+    text-align: center;
+}
+
+.footer__iconos {
+    list-style: none;
+    display: flex;
+    margin-bottom: 0%;
+    padding-left: 0%;
+}
+
+.footer__redes {
+    width: 50px;
+}
