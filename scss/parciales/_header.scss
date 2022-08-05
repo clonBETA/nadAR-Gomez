@@ -1,3 +1,22 @@
+/* Estilos - Web nadAR */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+*/
+
+p {
+    /*Todos los parrafos tienen las mismas caracteristicas*/
+    color: $colorParrafo;
+    font-size: medium;
+}
 
 .menu {
     display: flex;
