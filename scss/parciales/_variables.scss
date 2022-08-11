@@ -1,3 +1,11 @@
 $bgParrafo: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(2, 3, 87, 1) 35%, rgba(110, 180, 249, 1) 100%);
 $sizeParrafo: 20px;
 $colorParrafo: rgb(255, 255, 255);
+$estilosCard: (
+    grilla: grid,
+    ancho: 33% 33% 33%,
+    top: 50px,
+    alineacion: center,
+    bottom: 3rem,
+    borde: none,
+);

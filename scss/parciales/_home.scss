@@ -38,14 +38,13 @@
 
 /* Clase imagenes vinculadas a paginas */
 
-
 .card {
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    padding-top: 50px;
-    justify-content: center;
-    padding-bottom: 3rem;
-    border: none;
+    display: map-get($estilosCard, grilla);
+    grid-template-columns: map-get($estilosCard, ancho);
+    padding-top: map-get($estilosCard, top);
+    justify-content: map-get($estilosCard, alineacion);
+    padding-bottom: map-get($estilosCard, bottom);
+    border: map-get($estilosCard, borde);
 }
 
 .card__tarjeta {
