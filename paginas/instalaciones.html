@@ -23,34 +23,46 @@
 
     <header>
 
-        <nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            
+            <div class="container-fluid">
 
-            <ul class="menu" >
+              <a class="navbar-brand" href="../index.html">
+                <img class="menu__imagen" src="../imagenes/logoMenu.png" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
 
-                <li>
-                    <a href="../index.html">         
-                        <img class="menu__imagen" src="../imagenes/logoMenu.png" alt=""> <!--A esto lo puse así para que se vea bien el el html. Pero tengo en cuenta la corrección que me habías hecho de separar el link de la iamgen-->
-                    </a> <!-- El icono es el link al inicio de la pagina -->
-                </li>  
+                <div class="collapse navbar-collapse" id="navbarNav">
 
-                <div class="menu__lista">
+                    <ul class="navbar-nav">
 
-                    <li>
-                        <a class="menu__texto" href="./instalaciones.html"> instalaciones </a> <!-- Link a instalaciones -->
-                    </li>                
-                    <li>
-                        <a class="menu__texto" href="./registro.html"> registro </a> <!-- Link a registro -->
-                    </li>               
-                    <li>
-                        <a class="menu__texto" href="./nadadores.html"> nadadores </a> <!-- Link a nadadores -->
-                    </li>
-                    <li>
-                        <a class="menu__texto" href="./contacto.html"> contacto </a> <!-- Link a contacto -->
-                    </li>
+                        <div class="menu__lista">
+                        
+                            <li>
+                                <a class="menu__texto" href="./instalaciones.html"> instalaciones </a>
+                                <!-- Link a instalaciones -->
+                            </li>
+                        
+                            <li>
+                                <a class="menu__texto" href="./registro.html"> registro </a> <!-- Link a registro -->
+                            </li>
+                        
+                            <li>
+                                <a class="menu__texto" href="./nadadores.html"> nadadores </a> <!-- Link a nadadores -->
+                            </li>
+                        
+                            <li>
+                                <a class="menu__texto" href="./contacto.html"> contacto </a> <!-- Link a contacto -->
+                            </li>
 
+                        </div>
+
+                    </ul>
                 </div>
 
-            </ul>
+            </div>
 
         </nav>
 

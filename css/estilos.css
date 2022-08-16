@@ -1,18 +1,17 @@
 /*Siempre al Inicio*/
 /* Estilos - Web nadAR */
+/*
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/*
-body{
-    font-family: Arial, Helvetica, sans-serif;
-}
-*/
 p {
-  /*Todos los parrafos tienen las mismas caracteristicas*/
   color: white;
   font-size: medium;
 }
@@ -47,6 +46,8 @@ p {
 }
 
 /* Clase imagen de presentacion */
+/* Clase parrafo azul HOME */
+/* Clase imagenes vinculadas a paginas */
 .presentacion {
   display: grid;
   grid-template-columns: 100%;
@@ -62,7 +63,6 @@ p {
   margin: 0%;
 }
 
-/* Clase parrafo azul HOME */
 .azulHome {
   display: flex;
   flex-wrap: column;
@@ -81,7 +81,6 @@ p {
   font-weight: lighter;
 }
 
-/* Clase imagenes vinculadas a paginas */
 .card {
   display: grid;
   grid-template-columns: 33% 33% 33%;
@@ -129,6 +128,12 @@ p {
   padding: 10px;
 }
 
+/* Clase Ubicacion CERCANA */
+/* Clase BUENOS AIRES*/
+/** Clase MEXICO*/
+/* Clase NUEVA YORK*/
+/* Clase PRONTO*/
+/* Clase PROXIMAS Ciudades */
 .instalacionPresentacion {
   display: grid;
   grid-template-columns: 100%;
@@ -168,7 +173,6 @@ p {
   font-weight: lighter;
 }
 
-/* Clase Ubicacion CERCANA */
 .ubicacion {
   display: flex;
   margin-top: 100px;
@@ -206,7 +210,6 @@ p {
   font-size: x-large;
 }
 
-/* Clase BUENOS AIRES*/
 .buenosAires__card {
   display: grid;
   grid-template-columns: 50% 50%;
@@ -244,7 +247,6 @@ p {
   height: 100%;
 }
 
-/** Clase MEXICO*/
 .mexico__card {
   display: grid;
   grid-template-columns: 50% 50%;
@@ -282,7 +284,6 @@ p {
   height: 100%;
 }
 
-/* Clase NUEVA YORK*/
 .nuevaYork__card {
   display: grid;
   grid-template-columns: 50% 50%;
@@ -320,7 +321,6 @@ p {
   height: 100%;
 }
 
-/* Clase PRONTO*/
 .pronto {
   display: flex;
   width: 100%;
@@ -340,7 +340,6 @@ p {
   text-align: left;
 }
 
-/* Clase PROXIMAS Ciudades */
 .proximas {
   display: grid;
   grid-template-columns: 45% 45%;
@@ -371,6 +370,7 @@ p {
   font-size: 60px;
 }
 
+/* Clase PROCESO DE REGISTRO */
 .azulRegistro {
   display: flex;
   flex-direction: column;
@@ -403,7 +403,6 @@ p {
   font-weight: lighter;
 }
 
-/* Clase PROCESO DE REGISTRO */
 .secuencia {
   display: grid;
   grid-template-columns: 40% 40%;
@@ -452,6 +451,8 @@ p {
   width: 70%;
 }
 
+/* Calse PECES */
+/* Clase CONTADOR*/
 .azulNadadores {
   display: flex;
   flex-direction: column;
@@ -484,7 +485,6 @@ p {
   font-weight: lighter;
 }
 
-/* Calse PECES */
 .gridContador {
   display: grid;
   grid-template-columns: 100%;
@@ -500,7 +500,6 @@ p {
   width: 100%;
 }
 
-/* Clase CONTADOR*/
 .contador {
   display: flex;
   flex-direction: column;
@@ -557,6 +556,7 @@ p {
   margin-top: 10px;
 }
 
+/* Clase FORMULARIO */
 .azulContacto {
   display: flex;
   flex-direction: column;
@@ -589,7 +589,6 @@ p {
   text-align: justify;
 }
 
-/* Clase FORMULARIO */
 .formulario {
   display: flex;
   flex-direction: column;
@@ -789,6 +788,12 @@ p {
   }
   .contador__valor {
     font-size: 70px;
+    transition: color 0.1s;
+    transition: font-size 0.1s;
+  }
+  .contador__valor:hover {
+    color: royalblue;
+    font-size: 90px;
   }
   .contador__texto {
     font-size: 40px;

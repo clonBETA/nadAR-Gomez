@@ -1,231 +1,183 @@
 /*TABLET*/
 
 @media screen and (max-width:1023px) {
-
-    .menu {
-        flex-direction: column;
-        gap: 10px;
-        margin-bottom: 15px;
-    }
-
-    .menu__lista {
-        width: 100%;
-        justify-content: space-evenly;
-    }
-
-    .buenosAires__card {
-        grid-template-columns: none;
-        grid-template-rows: repeat(2, 1fr)
-    }
-
-    .mexico__card {
-        grid-template-columns: none;
-        grid-template-rows: repeat(2, 1fr)
-    }
-
-    .nuevaYork__card {
-        grid-template-columns: none;
-        grid-template-rows: repeat(2, 1fr)
-    }
-
-    .buenosAires__texto {
-        font-size: 30px;
-    }
-
-    .mexico__texto {
-        font-size: 30px;
-    }
-
-    .nuevaYork__texto {
-        font-size: 30px;
-    }
-
-    .card__titulo {
-        font-size: 20px;
-    }
-
-    .proximas {
-        justify-content: space-evenly;
-    }
-
-    .gridContador {
-        margin-bottom: 3rem;
-        margin-top: 3rem;
-    }
-
-    .contador__titulo {
-        font-size: 40px;
-    }
-
-    .contador__valor {
-        font-size: 70px;
-    }
-
-    .contador__texto {
-        font-size: 40px;
-    }
-
-    .formulario__datos{
-        flex-direction: column;
-    }
-
-    .formulario__nombre{
-        width: 400px;
-    }
-    
-    .formulario__apellido{
-        width: 400px;
-    }
-    
-    .formulario__email{
-        width: 400px;
-    }
-
-    .formulario__comentario{
-        width: 400px;
-    }
-
-
+	.menu {
+		flex-direction: column;
+		gap: 10px;
+		margin-bottom: 15px;
+	}
+	.menu__lista {
+		width: 100%;
+		justify-content: space-evenly;
+	}
+	.buenosAires__card {
+		grid-template-columns: none;
+		grid-template-rows: repeat(2, 1fr);
+	}
+	.mexico__card {
+		grid-template-columns: none;
+		grid-template-rows: repeat(2, 1fr);
+	}
+	.nuevaYork__card {
+		grid-template-columns: none;
+		grid-template-rows: repeat(2, 1fr);
+	}
+	.buenosAires__texto {
+		font-size: 30px;
+	}
+	.mexico__texto {
+		font-size: 30px;
+	}
+	.nuevaYork__texto {
+		font-size: 30px;
+	}
+	.card__titulo {
+		font-size: 20px;
+	}
+	.proximas {
+		justify-content: space-evenly;
+	}
+	.gridContador {
+		margin-bottom: 3rem;
+		margin-top: 3rem;
+	}
+	.contador__titulo {
+		font-size: 40px;
+	}
+	.contador__valor {
+		font-size: 70px;
+		transition: color 0.1s;
+		transition: font-size 0.1s;
+		&:hover {
+			color: royalblue;
+			font-size: 90px;
+		}
+	}
+	.contador__texto {
+		font-size: 40px;
+	}
+	.formulario__datos {
+		flex-direction: column;
+	}
+	.formulario__nombre {
+		width: 400px;
+	}
+	.formulario__apellido {
+		width: 400px;
+	}
+	.formulario__email {
+		width: 400px;
+	}
+	.formulario__comentario {
+		width: 400px;
+	}
 }
-
-
 
 /*MOBILE*/
 
-
 @media screen and (max-width:599px) {
-
-    .azulHome{
-        padding: 20px;
-    }
-
-    .azulHome__parrafo {
-        font-size: 17px;
-    }
-
-    .azulInstalacion{
-        padding: 20px;
-    }
-
-    .azulRegistro{
-        padding: 20px;
-    }
-
-    .azulInstalacion__parrafo {
-        font-size: 17px;
-    }
-
-    .azulNadadores{
-        padding: 20px;
-    }
-
-    .azulNadadores__parrafo {
-        font-size: 17px;
-    }
-
-    .azulRegistro__parrafo {
-        font-size: 17px;
-    }
-
-    .azulContacto{
-        padding: 20px;
-    }
-
-    .azulContacto__parrafo {
-        font-size: 17px;
-    }
-
-    .menu__texto {
-        font-size: 12px;
-        padding-left: 7px;
-        padding-right: 7px;
-    }
-
-    .card {
-        grid-template-columns: none;
-        grid-template-rows: repeat(3, 1fr)
-    }
-
-    .footer {
-        grid-template-columns: none;
-        grid-template-rows: repeat(2, 1fr)
-    }
-
-    .links {
-        grid-template-columns: none;
-        grid-template-rows: repeat(3, 1fr);
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-
-    .proximas {
-        grid-template-columns: none;
-        grid-template-rows: repeat(2, 1fr)
-    }
-
-    .footer__iconos {
-        margin-bottom: 10px;
-    }
-
-    .secuencia {
-        grid-template-columns: none;
-        grid-template-rows: repeat(2, 1fr);
-        justify-items: center;
-        margin-top: 50px;
-        align-content: center;
-        justify-content: center;
-    }
-
-    .secuencia__listado {
-        margin-left: 40px;
-        margin-right: 40px;
-        margin-bottom: 50px;
-    }
-
-    .secuencia__texto {
-        font-size: 15px;
-    }
-
-    .gridContador {
-        margin-bottom: 1rem;
-        margin-top: 1rem;
-    }
-
-    .contador__titulo {
-        font-size: 20px;
-    }
-
-    .contador__valor {
-        font-size: 50px;
-    }
-
-    .contador__texto {
-        font-size: 20px;
-    }
-
-    .formulario__datos{
-        flex-direction: column;
-        margin-top: 50px;
-    }
-
-    .formulario__nombre{
-        width: 300px;
-    }
-    
-    .formulario__apellido{
-        width: 300px;
-    }
-    
-    .formulario__email{
-        width: 300px;
-    }
-
-    .formulario__comentario{
-        width: 300px;
-    }
-    
-    .formulario__noticias{
-        font-size: 10px;
-    }
-
+	.azulHome {
+		padding: 20px;
+	}
+	.azulHome__parrafo {
+		font-size: 17px;
+	}
+	.azulInstalacion {
+		padding: 20px;
+	}
+	.azulRegistro {
+		padding: 20px;
+	}
+	.azulInstalacion__parrafo {
+		font-size: 17px;
+	}
+	.azulNadadores {
+		padding: 20px;
+	}
+	.azulNadadores__parrafo {
+		font-size: 17px;
+	}
+	.azulRegistro__parrafo {
+		font-size: 17px;
+	}
+	.azulContacto {
+		padding: 20px;
+	}
+	.azulContacto__parrafo {
+		font-size: 17px;
+	}
+	.menu__texto {
+		font-size: 12px;
+		padding-left: 7px;
+		padding-right: 7px;
+	}
+	.card {
+		grid-template-columns: none;
+		grid-template-rows: repeat(3, 1fr);
+	}
+	.footer {
+		grid-template-columns: none;
+		grid-template-rows: repeat(2, 1fr);
+	}
+	.links {
+		grid-template-columns: none;
+		grid-template-rows: repeat(3, 1fr);
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.proximas {
+		grid-template-columns: none;
+		grid-template-rows: repeat(2, 1fr);
+	}
+	.footer__iconos {
+		margin-bottom: 10px;
+	}
+	.secuencia {
+		grid-template-columns: none;
+		grid-template-rows: repeat(2, 1fr);
+		justify-items: center;
+		margin-top: 50px;
+		align-content: center;
+		justify-content: center;
+	}
+	.secuencia__listado {
+		margin-left: 40px;
+		margin-right: 40px;
+		margin-bottom: 50px;
+	}
+	.secuencia__texto {
+		font-size: 15px;
+	}
+	.gridContador {
+		margin-bottom: 1rem;
+		margin-top: 1rem;
+	}
+	.contador__titulo {
+		font-size: 20px;
+	}
+	.contador__valor {
+		font-size: 50px;
+	}
+	.contador__texto {
+		font-size: 20px;
+	}
+	.formulario__datos {
+		flex-direction: column;
+		margin-top: 50px;
+	}
+	.formulario__nombre {
+		width: 300px;
+	}
+	.formulario__apellido {
+		width: 300px;
+	}
+	.formulario__email {
+		width: 300px;
+	}
+	.formulario__comentario {
+		width: 300px;
+	}
+	.formulario__noticias {
+		font-size: 10px;
+	}
 }

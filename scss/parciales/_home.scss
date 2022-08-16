@@ -1,87 +1,71 @@
-
 /* Clase imagen de presentacion */
-
-.presentacion {
-    display: grid;
-    grid-template-columns: 100%;
-    width: 100%;
-}
-
-.presentacion__nadar {
-    width: 100%;
-}
-
-.presentacion__video {
-    width: 100%;
-    margin: 0%;
-}
-
 /* Clase parrafo azul HOME */
-
-.azulHome {
-    display: flex;
-    flex-wrap: column;
-    background: $bgParrafo;
-    min-height: 500px;
-    width: 100%;
-    padding: 100px;
-    justify-content: center;
-    align-items: center;
-}
-
-.azulHome__parrafo {
-    position: relative;
-    text-align: justify;
-    font-size: $sizeParrafo;
-    font-weight: lighter;
-}
-
 /* Clase imagenes vinculadas a paginas */
-
+.presentacion {
+	display: grid;
+	grid-template-columns: 100%;
+	width: 100%;
+}
+.presentacion__nadar {
+	width: 100%;
+}
+.presentacion__video {
+	width: 100%;
+	margin: 0%;
+}
+.azulHome {
+	display: flex;
+	flex-wrap: column;
+	background: $bgParrafo;
+	min-height: 500px;
+	width: 100%;
+	padding: 100px;
+	justify-content: center;
+	align-items: center;
+}
+.azulHome__parrafo {
+	position: relative;
+	text-align: justify;
+	font-size: $sizeParrafo;
+	font-weight: lighter;
+}
 .card {
-    display: map-get($estilosCard, grilla);
-    grid-template-columns: map-get($estilosCard, ancho);
-    padding-top: map-get($estilosCard, top);
-    justify-content: map-get($estilosCard, alineacion);
-    padding-bottom: map-get($estilosCard, bottom);
-    border: map-get($estilosCard, borde);
+	display: map-get($estilosCard, grilla);
+	grid-template-columns: map-get($estilosCard, ancho);
+	padding-top: map-get($estilosCard, top);
+	justify-content: map-get($estilosCard, alineacion);
+	padding-bottom: map-get($estilosCard, bottom);
+	border: map-get($estilosCard, borde);
 }
-
 .card__tarjeta {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding-bottom: 30px;
-    margin: 0;
-    width: 100%;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding-bottom: 30px;
+	margin: 0;
+	width: 100%;
 }
-
 .card__imagen {
-    position: relative;
-    width: 80%;
-    transition: width 0.1s;
+	position: relative;
+	width: 80%;
+	transition: width 0.1s;
+	&:hover {
+		width: 90%;
+	}
 }
-
-.card__imagen:hover{
-    width: 90%;
-}
-
 .card__titulo {
-    color: rgb(111, 129, 187);
-    font-size: xx-large;
-    padding: 10px;
-    font-weight: normal;
-    transition: font-weight 0.1s;
+	color: rgb(111, 129, 187);
+	font-size: xx-large;
+	padding: 10px;
+	font-weight: normal;
+	transition: font-weight 0.1s;
+	&:hover {
+		font-weight: bold;
+	}
 }
-
-.card__titulo:hover{
-    font-weight: bold;
-}
-
 .card__span {
-
-    color: rgb(131, 131, 131);
-    font-size: 20px;
-    font-weight: lighter;
-    padding: 10px;
+	color: rgb(131, 131, 131);
+	font-size: 20px;
+	font-weight: lighter;
+	padding: 10px;
 }

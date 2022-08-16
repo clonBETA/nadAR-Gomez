@@ -1,124 +1,107 @@
-.azulContacto {
-    display: flex;
-    flex-direction: column;
-    background: $bgParrafo;
-    min-height: 500px;
-    width: 100%;
-    padding: 100px;
-    justify-content: center;
-    align-items: center;
-}
-
-.azulContacto__escritos {
-    display: flex;
-    flex-direction: column;
-}
-
-.azulContacto__titulo {
-    position: relative;
-    color: rgb(255, 255, 255);
-    text-align: left;
-    font-size: 25px;
-    font-weight: bold;
-    padding-bottom: 30px;
-}
-
-.azulContacto__parrafo {
-    position: relative;
-    font-size: $sizeParrafo;
-    font-weight: lighter;
-    text-align:justify;
-}
-
-
 /* Clase FORMULARIO */
-
+.azulContacto {
+	display: flex;
+	flex-direction: column;
+	background: $bgParrafo;
+	min-height: 500px;
+	width: 100%;
+	padding: 100px;
+	justify-content: center;
+	align-items: center;
+}
+.azulContacto__escritos {
+	display: flex;
+	flex-direction: column;
+}
+.azulContacto__titulo {
+	position: relative;
+	color: rgb(255, 255, 255);
+	text-align: left;
+	font-size: 25px;
+	font-weight: bold;
+	padding-bottom: 30px;
+}
+.azulContacto__parrafo {
+	position: relative;
+	font-size: $sizeParrafo;
+	font-weight: lighter;
+	text-align: justify;
+}
 .formulario {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    justify-items: center;
-    padding-bottom: 6rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	justify-items: center;
+	padding-bottom: 6rem;
 }
-
 .formulario__datos {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 100px;
-    width: 640px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 100px;
+	width: 640px;
 }
-
 .formulario__nombre {
-    margin-bottom: 20px;
-    width: 315px;
-    border: 2px rgb(111, 129, 187) solid;
-    padding-left: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-radius: 15px;
-    transition: border 0.1s;
+	margin-bottom: 20px;
+	width: 315px;
+	border: 2px rgb(111, 129, 187) solid;
+	padding-left: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 15px;
+	transition: border 0.1s;
+	&:hover {
+		border: 4px rgb(214, 214, 214) solid;
+	}
 }
-
-.formulario__nombre:hover{
-    border: 4px rgb(214, 214, 214) solid;
-}
-
 .formulario__apellido {
-    margin-bottom: 20px;
-    width: 315px;
-    border: 2px rgb(111, 129, 187) solid;
-    padding-left: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-radius: 15px;
-    transition: border 0.1s;
+	margin-bottom: 20px;
+	width: 315px;
+	border: 2px rgb(111, 129, 187) solid;
+	padding-left: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 15px;
+	transition: border 0.1s;
+	&:hover {
+		border: 4px rgb(214, 214, 214) solid;
+	}
 }
-
-.formulario__apellido:hover{
-    border: 4px rgb(214, 214, 214) solid;
-}
-
 .formulario__email {
-    width: 640px;
-    border: 2px rgb(111, 129, 187) solid;
-    padding-left: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-radius: 15px;
-    transition: border 0.1s;
+	width: 640px;
+	border: 2px rgb(111, 129, 187) solid;
+	padding-left: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 15px;
+	transition: border 0.1s;
+	&:hover {
+		border: 4px rgb(214, 214, 214) solid;
+	}
 }
-
-.formulario__email:hover{
-    border: 4px rgb(214, 214, 214) solid;
-}
-
 .formulario__comentario {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 640px;
-    border: 2px rgb(111, 129, 187) solid;
-    padding-left: 20px;
-    padding-top: 5px;
-    border-radius: 15px;
-    transition: border 0.1s;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 640px;
+	border: 2px rgb(111, 129, 187) solid;
+	padding-left: 20px;
+	padding-top: 5px;
+	border-radius: 15px;
+	transition: border 0.1s;
+	&:hover {
+		border: 4px rgb(214, 214, 214) solid;
+	}
 }
-
-.formulario__comentario:hover{
-    border: 4px rgb(214, 214, 214) solid;
-}
-
 .formulario__noticias {
-    color: rgb(121, 131, 163);
-    text-align: left;
-    font-size: 15px;
-    font-weight: bold;
-    margin-top: 20px;
-    margin-bottom: 20px;
+	color: rgb(121, 131, 163);
+	text-align: left;
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
-
 .formulario__enviar {
-    margin-top: 20px;
+	margin-top: 20px;
 }
