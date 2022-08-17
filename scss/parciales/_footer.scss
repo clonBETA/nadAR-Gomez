@@ -1,5 +1,5 @@
-/* FOOTER */
 .footer {
+
 	display: grid;
 	grid-template-columns: 50% 50%;
 	background-color: rgb(92, 92, 92);
@@ -8,18 +8,23 @@
 	justify-items: center;
 	justify-content: center;
 	width: 100%;
+
+	&__span {
+		color: rgb(241, 241, 241);
+		font-size: 12px;
+		text-align: center;
+	}
+
+	&__iconos {
+		list-style: none;
+		display: flex;
+		margin-bottom: 0%;
+		padding-left: 0%;
+	}
+
+	&__redes {
+		width: 50px;
+	}
+
 }
-.footer__span {
-	color: rgb(241, 241, 241);
-	font-size: 12px;
-	text-align: center;
-}
-.footer__iconos {
-	list-style: none;
-	display: flex;
-	margin-bottom: 0%;
-	padding-left: 0%;
-}
-.footer__redes {
-	width: 50px;
-}
+

@@ -1,71 +1,98 @@
-/* Clase imagen de presentacion */
-/* Clase parrafo azul HOME */
-/* Clase imagenes vinculadas a paginas */
 .presentacion {
+
 	display: grid;
 	grid-template-columns: 100%;
 	width: 100%;
+
+	&__nadar {
+		width: 100%;
+	}
+
+	&__video {
+		width: 100%;
+		margin: 0%;
+	}
+
 }
-.presentacion__nadar {
-	width: 100%;
-}
-.presentacion__video {
-	width: 100%;
-	margin: 0%;
-}
+
 .azulHome {
+
 	display: flex;
-	flex-wrap: column;
+	flex-direction: column;
 	background: $bgParrafo;
 	min-height: 500px;
 	width: 100%;
 	padding: 100px;
 	justify-content: center;
-	align-items: center;
+	align-items: left;
+
+	&__escritos {
+		display: flex;
+		flex-direction: column;
+
+	}
+
+	&__titulo {
+		position: relative;
+		color: rgb(255, 255, 255);
+		text-align: left;
+		font-size: 25px;
+		font-weight: bold;
+		padding-bottom: 30px;
+	}
+
+	&__parrafo {
+		position: relative;
+		text-align: justify;
+		font-size: $sizeParrafo;
+		font-weight: lighter;
+	}
+
 }
-.azulHome__parrafo {
-	position: relative;
-	text-align: justify;
-	font-size: $sizeParrafo;
-	font-weight: lighter;
-}
+
 .card {
+	
 	display: map-get($estilosCard, grilla);
 	grid-template-columns: map-get($estilosCard, ancho);
 	padding-top: map-get($estilosCard, top);
 	justify-content: map-get($estilosCard, alineacion);
 	padding-bottom: map-get($estilosCard, bottom);
 	border: map-get($estilosCard, borde);
-}
-.card__tarjeta {
-	display: flex;
-	flex-direction: column;
-	text-align: center;
-	padding-bottom: 30px;
-	margin: 0;
-	width: 100%;
-}
-.card__imagen {
-	position: relative;
-	width: 80%;
-	transition: width 0.1s;
-	&:hover {
-		width: 90%;
+
+	&__tarjeta {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		padding-bottom: 30px;
+		margin: 0;
+		width: 100%;
 	}
-}
-.card__titulo {
-	color: rgb(111, 129, 187);
-	font-size: xx-large;
-	padding: 10px;
-	font-weight: normal;
-	transition: font-weight 0.1s;
-	&:hover {
-		font-weight: bold;
+
+	&__imagen {
+		position: relative;
+		width: 80%;
+		transition: width 0.1s;
+		&:hover {
+			width: 90%;
+		}
 	}
-}
-.card__span {
-	color: rgb(131, 131, 131);
-	font-size: 20px;
-	font-weight: lighter;
-	padding: 10px;
+
+	&__titulo {
+		color: rgb(111, 129, 187);
+		font-size: xx-large;
+		padding: 10px;
+		font-weight: normal;
+		transition: font-weight 0.1s;
+		&:hover {
+			font-weight: bold;
+		}
+	}
+
+	&__span {
+		color: rgb(131, 131, 131);
+		font-size: 20px;
+		font-weight: lighter;
+		padding: 10px;
+	}
+
 }

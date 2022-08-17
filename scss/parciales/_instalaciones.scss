@@ -1,16 +1,12 @@
-/* Clase Ubicacion CERCANA */
-/* Clase BUENOS AIRES*/
-/** Clase MEXICO*/
-/* Clase NUEVA YORK*/
-/* Clase PRONTO*/
-/* Clase PROXIMAS Ciudades */
 .instalacionPresentacion {
 	display: grid;
 	grid-template-columns: 100%;
 	width: 100%;
 	justify-content: center;
 }
+
 .azulInstalacion {
+
 	display: flex;
 	flex-direction: column;
 	background: $bgParrafo;
@@ -19,187 +15,234 @@
 	padding: 100px;
 	justify-content: center;
 	align-items: center;
+
+	&__escritos {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__titulo {
+		position: relative;
+		color: rgb(255, 255, 255);
+		text-align: left;
+		font-size: 25px;
+		font-weight: bold;
+		padding-bottom: 30px;
+	}
+
+	&__parrafo {
+		position: relative;
+		text-align: justify;
+		font-size: $sizeParrafo;
+		font-weight: lighter;
+	}
+
 }
-.azulInstalacion__escritos {
-	display: flex;
-	flex-direction: column;
-}
-.azulInstalacion__titulo {
-	position: relative;
-	color: rgb(255, 255, 255);
-	text-align: left;
-	font-size: 25px;
-	font-weight: bold;
-	padding-bottom: 30px;
-}
-.azulInstalacion__parrafo {
-	position: relative;
-	text-align: justify;
-	font-size: $sizeParrafo;
-	font-weight: lighter;
-}
+
 .ubicacion {
+
 	display: flex;
 	margin-top: 100px;
 	margin-bottom: 100px;
 	justify-content: center;
+
+	&__card {
+		display: flex;
+		flex-direction: column;
+		padding: 60px;
+	}
+
+	&__encuentra {
+		position: relative;
+		color: rgb(83, 108, 122);
+		padding-bottom: 80px;
+		justify-content: left;
+	}
+
+	&__ahora {
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: left;
+	}
+	
+	&__imagen {
+		width: 50px;
+		padding-right: 10px;
+	}
+
+	&__texto {
+		color: rgb(83, 108, 122);
+		font-size: x-large;
+	}
+
 }
-.ubicacion__card {
-	display: flex;
-	flex-direction: column;
-	padding: 60px;
-}
-.ubicacion__encuentra {
-	position: relative;
-	color: rgb(83, 108, 122);
-	padding-bottom: 80px;
-	justify-content: left;
-}
-.ubicacion__ahora {
-	position: relative;
-	display: flex;
-	align-items: center;
-	justify-content: left;
-}
-.ubicacion__imagen {
-	width: 50px;
-	padding-right: 10px;
-}
-.ubicacion__texto {
-	color: rgb(83, 108, 122);
-	font-size: x-large;
-}
-.buenosAires__card {
+
+.buenosAires {
+
 	display: grid;
 	grid-template-columns: 50% 50%;
 	width: 100%;
 	justify-content: center;
 	align-content: center;
 	margin-bottom: 50px;
-}
-.buenosAires__preview {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-.buenosAires__imagen {
-	position: relative;
-	width: 100%;
-}
-.buenosAires__texto {
-	position: absolute;
-	color: white;
-	font-size: 50px;
-	text-align: center;
-	transition: font-size 0.1s;
-	&:hover {
-		font-size: 60px;
+
+	&__preview {
+		display: flex;
+		align-items: center;
+		justify-content: center;
 	}
+	
+	&__imagen {
+		position: relative;
+		width: 100%;
+	}
+	
+	&__texto {
+		position: absolute;
+		color: white;
+		font-size: 50px;
+		text-align: center;
+		transition: font-size 0.1s;
+		&:hover {
+			font-size: 60px;
+		}
+	}
+	
+	&__mapa {
+		width: 100%;
+		height: 100%;
+	}
+	
 }
-.buenosAires__mapa {
-	width: 100%;
-	height: 100%;
-}
-.mexico__card {
+
+.mexico {
+
 	display: grid;
 	grid-template-columns: 50% 50%;
 	width: 100%;
 	justify-content: center;
 	align-content: center;
 	margin-bottom: 50px;
-}
-.mexico__preview {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-.mexico__imagen {
-	position: relative;
-	width: 100%;
-}
-.mexico__texto {
-	position: absolute;
-	color: white;
-	font-size: 50px;
-	text-align: center;
-	transition: font-size 0.1s;
-	&:hover {
-		font-size: 60px;
+
+	&__preview {
+		display: flex;
+		align-items: center;
+		justify-content: center;
 	}
+	
+	&__imagen {
+		position: relative;
+		width: 100%;
+	}
+	
+	&__texto {
+		position: absolute;
+		color: white;
+		font-size: 50px;
+		text-align: center;
+		transition: font-size 0.1s;
+		&:hover {
+			font-size: 60px;
+		}
+	}
+	
+	&__mapa {
+		width: 100%;
+		height: 100%;
+	}
+
 }
-.mexico__mapa {
-	width: 100%;
-	height: 100%;
-}
-.nuevaYork__card {
+
+
+.nuevaYork {
+
 	display: grid;
 	grid-template-columns: 50% 50%;
 	width: 100%;
 	justify-content: center;
 	align-content: center;
 	margin-bottom: 50px;
-}
-.nuevaYork__preview {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-.nuevaYork__imagen {
-	position: relative;
-	width: 100%;
-}
-.nuevaYork__texto {
-	position: absolute;
-	color: white;
-	font-size: 50px;
-	text-align: center;
-	transition: font-size 0.1s;
-	&:hover {
-		font-size: 60px;
+
+	&__preview {
+		display: flex;
+		align-items: center;
+		justify-content: center;
 	}
+	
+	&__imagen {
+		position: relative;
+		width: 100%;
+	}
+	
+	&__texto {
+		position: absolute;
+		color: white;
+		font-size: 50px;
+		text-align: center;
+		transition: font-size 0.1s;
+		&:hover {
+			font-size: 60px;
+		}
+	}
+	
+	&__mapa {
+		width: 100%;
+		height: 100%;
+	}
+
 }
-.nuevaYork__mapa {
-	width: 100%;
-	height: 100%;
-}
+
+
 .pronto {
+
 	display: flex;
 	width: 100%;
 	margin-top: 150px;
 	align-items: center;
 	justify-content: center;
+
+	&__imagen {
+		width: 50px;
+		padding-right: 10px;
+	}
+	
+	&__texto {
+		color: rgb(83, 108, 122);
+		font-size: x-large;
+		text-align: left;
+	}
+
 }
-.pronto__imagen {
-	width: 50px;
-	padding-right: 10px;
-}
-.pronto__texto {
-	color: rgb(83, 108, 122);
-	font-size: x-large;
-	text-align: left;
-}
+
+
 .proximas {
+
 	display: grid;
 	grid-template-columns: 45% 45%;
 	margin-top: 150px;
 	margin-bottom: 6rem;
 	justify-content: space-evenly;
-}
-.proximas__preview {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-.proximas__imagen {
-	position: relative;
-	width: 100%;
-}
-.proximas__texto {
-	position: absolute;
-	color: white;
-	font-size: 50px;
-	transition: font-size 0.1s;
-	&:hover {
-		font-size: 60px;
+
+	&__preview {
+		display: flex;
+		align-items: center;
+		justify-content: center;
 	}
+
+	&__imagen {
+		position: relative;
+		width: 100%;
+	}
+
+	&__texto {
+		position: absolute;
+		color: white;
+		font-size: 50px;
+		transition: font-size 0.1s;
+		&:hover {
+			font-size: 60px;
+		}
+	}
+	
 }

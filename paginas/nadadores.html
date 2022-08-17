@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="NADAR, ACUARIO, MUSEO, INSTALACION, REALIDAD AUMENTADA, EXPERIENCIA INMERSIVA, TECNOLOGIA, NADADORES">
-    <meta name="description" content="nadAR es una experiencia en Realidad Aumentada que recrea un acuario virtual y que tiene lugar en diferentes espacios alrededor del mundo de manera simultánea.">
+    <meta name="keywords" content="NADAR, ACUARIO, MUSEO, INSTALACION, REALIDAD AUMENTADA, EXPERIENCIA INMERSIVA, POBLACION, VISITANTES, TIEMPO REAL, NADADORES">
+    <meta name="description" content="Crece con la comunidad y conoce cuantos nadadores hay en tu intalación más cercana.">
 
     <link rel="shorcut icon" href="../imagenes/logoImagen.png">
     <title>nadAR | Nadadores</title>
@@ -21,7 +21,6 @@
 </head>
 
 <body>
-    <!-- TODAS LAS IMAGENES ESTAN REDUCIDAS PARA PODER VERSE. NO SON LAS MEDIDAS FINALES-->
 
     <header>
 
@@ -30,7 +29,7 @@
             <div class="container-fluid">
 
               <a class="navbar-brand" href="../index.html">
-                <img class="menu__imagen" src="../imagenes/logoMenu.png" alt="">
+                <img class="menu__imagen" src="../imagenes/logoMenu.png" alt="Logo nadAR">
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -40,23 +39,22 @@
 
                     <ul class="navbar-nav">
 
-                        <div class="menu__lista">
+                        <div class="menu">
                         
                             <li>
                                 <a class="menu__texto" href="./instalaciones.html"> instalaciones </a>
-                                <!-- Link a instalaciones -->
                             </li>
                         
                             <li>
-                                <a class="menu__texto" href="./registro.html"> registro </a> <!-- Link a registro -->
+                                <a class="menu__texto" href="./registro.html"> registro </a>
                             </li>
                         
                             <li>
-                                <a class="menu__texto" href="./nadadores.html"> nadadores </a> <!-- Link a nadadores -->
+                                <a class="menu__texto" href="./nadadores.html"> nadadores </a>
                             </li>
                         
                             <li>
-                                <a class="menu__texto" href="./contacto.html"> contacto </a> <!-- Link a contacto -->
+                                <a class="menu__texto" href="./contacto.html"> contacto </a>
                             </li>
 
                         </div>
@@ -86,11 +84,11 @@
 
         <section>
 
-            <div class="gridContador">
+            <div class="contador">
 
-                <img class="pecesTop" src="../imagenes/pecesTop.png" alt="">
+                <img class="contador__pecesTop" src="../imagenes/pecesTop.png" alt="Peces 01">
 
-                <div class="contador">
+                <div class="contador__card">
 
                     <h2 class="contador__titulo">ÚNETE A LOS NADADORES</h2>
 
@@ -110,14 +108,14 @@
 
                 </div>
 
-                <img class="pecesBottom" src="../imagenes/pecesBottom.png" alt="">
+                <img class="contador__pecesBottom" src="../imagenes/pecesBottom.png" alt="Peces 02">
 
             </div>
 
         </section>
 
         <section>
-            <!-- Patrocinadores, NO VAN EN EL FOOTER -->
+
             <div>
                 <h3 class="presentadores">Presentado por:</h3>
             </div>
@@ -125,23 +123,20 @@
             <div>
                 <ul class="links">
                     <li>
-                        <a href="https://www.argentina.gob.ar/cultura" target="_blank">
-                            <!-- Link a Ministerio de cultura -->
-                            <img class="links__logoCultura" src="../imagenes/logoCultura.png" alt="">
+                        <a href="https://www.argentina.gob.ar/cultura" target="_blank"> <!-- Link a Ministerio de cultura -->
+                            <img class="links__logoCultura" src="../imagenes/logoCultura.png" alt="Ministerio de Cultura">
                         </a>
                     </li>
 
                     <li>
-                        <a href="https://museomoderno.org/" target="_blank">
-                            <!-- Link a Museo Moderno -->
-                            <img class="links__logoModerno" src="../imagenes/logoModerno.png" alt="">
+                        <a href="https://museomoderno.org/" target="_blank"> <!-- Link a Museo Moderno -->
+                            <img class="links__logoModerno" src="../imagenes/logoModerno.png" alt="Museo Arte Moderno">
                         </a>
                     </li>
 
                     <li>
-                        <a href="https://mica.gob.ar/inicio" target="_blank">
-                            <!-- Link a MICA -->
-                            <img class="links__logoMica" src="../imagenes/logoMica.png" alt="">
+                        <a href="https://mica.gob.ar/inicio" target="_blank"> <!-- Link a MICA -->
+                            <img class="links__logoMica" src="../imagenes/logoMica.png" alt="MICA">
                         </a>
                     </li>
                 </ul>
@@ -162,22 +157,19 @@
 
             <ul class="footer__iconos">
                 <li>
-                    <a href="#">
-                        <!-- Link Twitter -->
+                    <a href="#"> <!-- Link Twitter -->
                         <img class="footer__redes" src="../imagenes/twitter.png" alt="Twitter">
                     </a>
                 </li>
 
                 <li>
-                    <a href="#">
-                        <!-- Link Instagram -->
+                    <a href="#"> <!-- Link Instagram -->
                         <img class="footer__redes" src="../imagenes/instagram.png" alt="Instagram">
                     </a>
                 </li>
 
                 <li>
-                    <a href="#">
-                        <!-- Link Facebook -->
+                    <a href="#"> <!-- Link Facebook -->
                         <img class="footer__redes" src="../imagenes/facebook.png" alt="Facebook">
                     </a>
                 </li>
@@ -188,8 +180,8 @@
 
     <!-- Bootstrap (CDN) - Hoja de js - SIN DESCARGAR EL ARCHIVO (remoto)-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
 
 </body>
 

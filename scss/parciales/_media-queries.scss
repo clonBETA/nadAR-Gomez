@@ -1,24 +1,25 @@
 /*TABLET*/
 
 @media screen and (max-width:1023px) {
+	
+	/*HEADER*/
+
 	.menu {
-		flex-direction: column;
-		gap: 10px;
-		margin-bottom: 15px;
-	}
-	.menu__lista {
 		width: 100%;
 		justify-content: space-evenly;
 	}
-	.buenosAires__card {
+
+	/*INTALACIONES*/
+
+	.buenosAires {
 		grid-template-columns: none;
 		grid-template-rows: repeat(2, 1fr);
 	}
-	.mexico__card {
+	.mexico {
 		grid-template-columns: none;
 		grid-template-rows: repeat(2, 1fr);
 	}
-	.nuevaYork__card {
+	.nuevaYork {
 		grid-template-columns: none;
 		grid-template-rows: repeat(2, 1fr);
 	}
@@ -31,13 +32,19 @@
 	.nuevaYork__texto {
 		font-size: 30px;
 	}
-	.card__titulo {
-		font-size: 20px;
-	}
 	.proximas {
 		justify-content: space-evenly;
 	}
-	.gridContador {
+
+	/*INICIO*/
+
+	.card__titulo {
+		font-size: 20px;
+	}
+
+	/*NADADORES*/
+
+	.contador {
 		margin-bottom: 3rem;
 		margin-top: 3rem;
 	}
@@ -56,6 +63,9 @@
 	.contador__texto {
 		font-size: 40px;
 	}
+
+	/*CONTACTO*/
+
 	.formulario__datos {
 		flex-direction: column;
 	}
@@ -71,66 +81,76 @@
 	.formulario__comentario {
 		width: 400px;
 	}
+
 }
 
 /*MOBILE*/
 
 @media screen and (max-width:599px) {
+
+	/*HEADER*/
+	.menu__texto {
+		font-size: 12px;
+		padding-left: 7px;
+		padding-right: 7px;
+	}
+
+	/*INICIO*/
+
 	.azulHome {
 		padding: 20px;
 	}
 	.azulHome__parrafo {
 		font-size: 17px;
 	}
+	.card {
+		grid-template-columns: none;
+		grid-template-rows: repeat(3, 1fr);
+	}
+
+	/*INSTALACIONES*/
+
 	.azulInstalacion {
 		padding: 20px;
 	}
-	.azulRegistro {
-		padding: 20px;
-	}
+
 	.azulInstalacion__parrafo {
 		font-size: 17px;
 	}
+	.proximas {
+		grid-template-columns: none;
+		grid-template-rows: repeat(2, 1fr);
+	}
+
+	/*NADADORES*/
+
 	.azulNadadores {
 		padding: 20px;
 	}
 	.azulNadadores__parrafo {
 		font-size: 17px;
 	}
-	.azulRegistro__parrafo {
-		font-size: 17px;
+	.contador {
+		margin-bottom: 1rem;
+		margin-top: 1rem;
 	}
-	.azulContacto {
+	.contador__titulo {
+		font-size: 20px;
+	}
+	.contador__valor {
+		font-size: 50px;
+	}
+	.contador__texto {
+		font-size: 20px;
+	}
+
+	/*REGISTRO*/
+
+	.azulRegistro {
 		padding: 20px;
 	}
-	.azulContacto__parrafo {
+	.azulRegistro__parrafo {
 		font-size: 17px;
-	}
-	.menu__texto {
-		font-size: 12px;
-		padding-left: 7px;
-		padding-right: 7px;
-	}
-	.card {
-		grid-template-columns: none;
-		grid-template-rows: repeat(3, 1fr);
-	}
-	.footer {
-		grid-template-columns: none;
-		grid-template-rows: repeat(2, 1fr);
-	}
-	.links {
-		grid-template-columns: none;
-		grid-template-rows: repeat(3, 1fr);
-		margin-top: 20px;
-		margin-bottom: 20px;
-	}
-	.proximas {
-		grid-template-columns: none;
-		grid-template-rows: repeat(2, 1fr);
-	}
-	.footer__iconos {
-		margin-bottom: 10px;
 	}
 	.secuencia {
 		grid-template-columns: none;
@@ -148,18 +168,15 @@
 	.secuencia__texto {
 		font-size: 15px;
 	}
-	.gridContador {
-		margin-bottom: 1rem;
-		margin-top: 1rem;
+
+
+	/*CONTACTO*/
+
+	.azulContacto {
+		padding: 20px;
 	}
-	.contador__titulo {
-		font-size: 20px;
-	}
-	.contador__valor {
-		font-size: 50px;
-	}
-	.contador__texto {
-		font-size: 20px;
+	.azulContacto__parrafo {
+		font-size: 17px;
 	}
 	.formulario__datos {
 		flex-direction: column;
@@ -180,4 +197,21 @@
 	.formulario__noticias {
 		font-size: 10px;
 	}
+
+	/*FOOTER*/
+
+	.footer {
+		grid-template-columns: none;
+		grid-template-rows: repeat(2, 1fr);
+	}
+	.footer__iconos {
+		margin-bottom: 10px;
+	}
+	.links {
+		grid-template-columns: none;
+		grid-template-rows: repeat(3, 1fr);
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
 }

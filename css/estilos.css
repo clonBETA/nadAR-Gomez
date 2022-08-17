@@ -1,10 +1,4 @@
 /*Siempre al Inicio*/
-/* Estilos - Web nadAR */
-/*
-body{
-    font-family: Arial, Helvetica, sans-serif;
-}
-*/
 * {
   margin: 0;
   padding: 0;
@@ -17,15 +11,6 @@ p {
 }
 
 .menu {
-  display: flex;
-  list-style: none;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 0%;
-  padding-left: 0%;
-}
-
-.menu__lista {
   display: flex;
 }
 
@@ -45,9 +30,6 @@ p {
   padding-top: 5px;
 }
 
-/* Clase imagen de presentacion */
-/* Clase parrafo azul HOME */
-/* Clase imagenes vinculadas a paginas */
 .presentacion {
   display: grid;
   grid-template-columns: 100%;
@@ -65,13 +47,27 @@ p {
 
 .azulHome {
   display: flex;
-  flex-wrap: column;
+  flex-direction: column;
   background: radial-gradient(circle, #020024 0%, #020357 35%, #6eb4f9 100%);
   min-height: 500px;
   width: 100%;
   padding: 100px;
   justify-content: center;
-  align-items: center;
+  align-items: left;
+}
+
+.azulHome__escritos {
+  display: flex;
+  flex-direction: column;
+}
+
+.azulHome__titulo {
+  position: relative;
+  color: white;
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+  padding-bottom: 30px;
 }
 
 .azulHome__parrafo {
@@ -128,12 +124,6 @@ p {
   padding: 10px;
 }
 
-/* Clase Ubicacion CERCANA */
-/* Clase BUENOS AIRES*/
-/** Clase MEXICO*/
-/* Clase NUEVA YORK*/
-/* Clase PRONTO*/
-/* Clase PROXIMAS Ciudades */
 .instalacionPresentacion {
   display: grid;
   grid-template-columns: 100%;
@@ -210,7 +200,7 @@ p {
   font-size: x-large;
 }
 
-.buenosAires__card {
+.buenosAires {
   display: grid;
   grid-template-columns: 50% 50%;
   width: 100%;
@@ -247,7 +237,7 @@ p {
   height: 100%;
 }
 
-.mexico__card {
+.mexico {
   display: grid;
   grid-template-columns: 50% 50%;
   width: 100%;
@@ -284,7 +274,7 @@ p {
   height: 100%;
 }
 
-.nuevaYork__card {
+.nuevaYork {
   display: grid;
   grid-template-columns: 50% 50%;
   width: 100%;
@@ -370,7 +360,6 @@ p {
   font-size: 60px;
 }
 
-/* Clase PROCESO DE REGISTRO */
 .azulRegistro {
   display: flex;
   flex-direction: column;
@@ -442,17 +431,15 @@ p {
   font-weight: bold;
 }
 
-.qr {
+.secuencia__qr {
   width: 60%;
   transition: width 0.1s;
 }
 
-.qr:hover {
+.secuencia__qr:hover {
   width: 70%;
 }
 
-/* Calse PECES */
-/* Clase CONTADOR*/
 .azulNadadores {
   display: flex;
   flex-direction: column;
@@ -485,22 +472,22 @@ p {
   font-weight: lighter;
 }
 
-.gridContador {
+.contador {
   display: grid;
   grid-template-columns: 100%;
   margin-bottom: 6rem;
   margin-top: 6rem;
 }
 
-.pecesTop {
+.contador__pecesTop {
   width: 100%;
 }
 
-.pecesBottom {
+.contador__pecesBottom {
   width: 100%;
 }
 
-.contador {
+.contador__card {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -556,7 +543,6 @@ p {
   margin-top: 10px;
 }
 
-/* Clase FORMULARIO */
 .azulContacto {
   display: flex;
   flex-direction: column;
@@ -604,7 +590,7 @@ p {
   align-items: center;
   justify-content: center;
   margin-top: 100px;
-  width: 640px;
+  width: 100%;
 }
 
 .formulario__nombre {
@@ -679,7 +665,6 @@ p {
   margin-top: 20px;
 }
 
-/* PRESENTADORES */
 .presentadores {
   color: #7c7c7c;
   font-size: x-large;
@@ -712,7 +697,6 @@ p {
   height: 70%;
 }
 
-/* FOOTER */
 .footer {
   display: grid;
   grid-template-columns: 50% 50%;
@@ -743,24 +727,21 @@ p {
 
 /*TABLET*/
 @media screen and (max-width: 1023px) {
+  /*HEADER*/
   .menu {
-    flex-direction: column;
-    gap: 10px;
-    margin-bottom: 15px;
-  }
-  .menu__lista {
     width: 100%;
     justify-content: space-evenly;
   }
-  .buenosAires__card {
+  /*INTALACIONES*/
+  .buenosAires {
     grid-template-columns: none;
     grid-template-rows: repeat(2, 1fr);
   }
-  .mexico__card {
+  .mexico {
     grid-template-columns: none;
     grid-template-rows: repeat(2, 1fr);
   }
-  .nuevaYork__card {
+  .nuevaYork {
     grid-template-columns: none;
     grid-template-rows: repeat(2, 1fr);
   }
@@ -773,13 +754,15 @@ p {
   .nuevaYork__texto {
     font-size: 30px;
   }
-  .card__titulo {
-    font-size: 20px;
-  }
   .proximas {
     justify-content: space-evenly;
   }
-  .gridContador {
+  /*INICIO*/
+  .card__titulo {
+    font-size: 20px;
+  }
+  /*NADADORES*/
+  .contador {
     margin-bottom: 3rem;
     margin-top: 3rem;
   }
@@ -798,6 +781,7 @@ p {
   .contador__texto {
     font-size: 40px;
   }
+  /*CONTACTO*/
   .formulario__datos {
     flex-direction: column;
   }
@@ -817,61 +801,60 @@ p {
 
 /*MOBILE*/
 @media screen and (max-width: 599px) {
+  /*HEADER*/
+  .menu__texto {
+    font-size: 12px;
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+  /*INICIO*/
   .azulHome {
     padding: 20px;
   }
   .azulHome__parrafo {
     font-size: 17px;
   }
-  .azulInstalacion {
-    padding: 20px;
+  .card {
+    grid-template-columns: none;
+    grid-template-rows: repeat(3, 1fr);
   }
-  .azulRegistro {
+  /*INSTALACIONES*/
+  .azulInstalacion {
     padding: 20px;
   }
   .azulInstalacion__parrafo {
     font-size: 17px;
   }
+  .proximas {
+    grid-template-columns: none;
+    grid-template-rows: repeat(2, 1fr);
+  }
+  /*NADADORES*/
   .azulNadadores {
     padding: 20px;
   }
   .azulNadadores__parrafo {
     font-size: 17px;
   }
-  .azulRegistro__parrafo {
-    font-size: 17px;
+  .contador {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
   }
-  .azulContacto {
+  .contador__titulo {
+    font-size: 20px;
+  }
+  .contador__valor {
+    font-size: 50px;
+  }
+  .contador__texto {
+    font-size: 20px;
+  }
+  /*REGISTRO*/
+  .azulRegistro {
     padding: 20px;
   }
-  .azulContacto__parrafo {
+  .azulRegistro__parrafo {
     font-size: 17px;
-  }
-  .menu__texto {
-    font-size: 12px;
-    padding-left: 7px;
-    padding-right: 7px;
-  }
-  .card {
-    grid-template-columns: none;
-    grid-template-rows: repeat(3, 1fr);
-  }
-  .footer {
-    grid-template-columns: none;
-    grid-template-rows: repeat(2, 1fr);
-  }
-  .links {
-    grid-template-columns: none;
-    grid-template-rows: repeat(3, 1fr);
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-  .proximas {
-    grid-template-columns: none;
-    grid-template-rows: repeat(2, 1fr);
-  }
-  .footer__iconos {
-    margin-bottom: 10px;
   }
   .secuencia {
     grid-template-columns: none;
@@ -889,18 +872,12 @@ p {
   .secuencia__texto {
     font-size: 15px;
   }
-  .gridContador {
-    margin-bottom: 1rem;
-    margin-top: 1rem;
+  /*CONTACTO*/
+  .azulContacto {
+    padding: 20px;
   }
-  .contador__titulo {
-    font-size: 20px;
-  }
-  .contador__valor {
-    font-size: 50px;
-  }
-  .contador__texto {
-    font-size: 20px;
+  .azulContacto__parrafo {
+    font-size: 17px;
   }
   .formulario__datos {
     flex-direction: column;
@@ -920,6 +897,20 @@ p {
   }
   .formulario__noticias {
     font-size: 10px;
+  }
+  /*FOOTER*/
+  .footer {
+    grid-template-columns: none;
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .footer__iconos {
+    margin-bottom: 10px;
+  }
+  .links {
+    grid-template-columns: none;
+    grid-template-rows: repeat(3, 1fr);
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 }
 
