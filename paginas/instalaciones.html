@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -23,44 +23,42 @@
 
     <header>
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light"> <!-- Navbar de BOOTSTRAP -->
             
             <div class="container-fluid">
 
-              <a class="navbar-brand" href="../index.html">
-                <img class="menu__imagen" src="../imagenes/logoMenu.png" alt="Logo nadAR">
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-
+                <a class="navbar-brand" href="../index.html">  <!-- Logo con enlace a pagina home -->
+                  <img class="navbar-brand__imagen" src="../imagenes/logoMenu.png" alt="Logo nadAR">
+                </a>
+  
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+  
                 <div class="collapse navbar-collapse" id="navbarNav">
 
                     <ul class="navbar-nav">
 
-                        <div class="menu">
-                        
-                            <li>
-                                <a class="menu__texto" href="./instalaciones.html"> instalaciones </a>
-                            </li>
-                        
-                            <li>
-                                <a class="menu__texto" href="./registro.html"> registro </a> 
-                            </li>
-                        
-                            <li>
-                                <a class="menu__texto" href="./nadadores.html"> nadadores </a>
-                            </li>
-                        
-                            <li>
-                                <a class="menu__texto" href="./contacto.html"> contacto </a>
-                            </li>
-
-                        </div>
+                        <li>
+                            <a class="navbar-nav__texto" href="./instalaciones.html"> instalaciones </a>
+                        </li>
+                    
+                        <li>
+                            <a class="navbar-nav__texto" href="./registro.html"> registro </a> 
+                        </li>
+                    
+                        <li>
+                            <a class="navbar-nav__texto" href="./nadadores.html"> nadadores </a>
+                        </li>
+                    
+                        <li>
+                            <a class="navbar-nav__texto" href="./contacto.html"> contacto </a>
+                        </li>
 
                     </ul>
-                </div>
 
+                </div>
+  
             </div>
 
         </nav>
@@ -71,18 +69,18 @@
 
         <section class="instalacionPresentacion"></section>
 
-            <div class="azulInstalacion">
+            <div class="azulInstalacion">  <!-- Texto principal de la pagina -->
 
                 <div class="azulIstalacion__escritos">       
 
-                    <h1 class="azulInstalacion__titulo" >INSTALACIONES</h1>
+                    <h1 class="azulInstalacion__titulo" >INSTALACIONES</h1>  
                     <p class="azulInstalacion__parrafo" >nadAR se desarrolla en espacios tanto abiertos como cerrados de circulación libre, de esta manera las personar pueden desenvolverse por el lugar <strong>generando recorridos propios a través de esta nueva realidad</strong>.</p>
                     
                 </div>
             
             </div>
 
-            <div class="ubicacion" >
+            <div class="ubicacion" >  <!-- Titulos de ubicaciones -->
 
                 <div class="ubicacion__card">
 
@@ -101,8 +99,7 @@
 
         </section>
 
-        <section>
-
+        <section>  <!-- Tarjetas de ubicaciones de cada pais -->
 
             <div class="buenosAires">
 
@@ -141,7 +138,7 @@
 
         </section>
 
-        <section>
+        <section>  <!-- Titulo proximas presentaciones -->
 
             <div class="pronto" >
                 <img class="pronto__imagen" src="../imagenes/ubicacion.png" alt="iconoUbicación">
@@ -150,7 +147,7 @@
 
         </section>
 
-        <section>
+        <section>  <!-- Tarjetas de ubicacion de proximas instalaciones -->
 
             <div class="proximas" >
 
@@ -162,53 +159,55 @@
                 <div class="proximas__preview" >
                     <img class="proximas__imagen" src="../imagenes/españa.jpg" alt="Instalación España">
                     <h2 class="proximas__texto" >ESPAÑA</h2>
-                 </div>
+                </div>
 
             </div>
 
         </section>
 
-        <section>
+        <section>  <!-- Logo de patrocinadores con link a sitios externos -->
+
             <div >
                 <h3 class="presentadores">Presentado por:</h3>
             </div>
-            
-            <div>
-                <ul class="links">
-                    <li>
-                        <a href="https://www.argentina.gob.ar/cultura" target="_blank"> <!-- Link a Ministerio de cultura -->
-                            <img class="links__logoCultura" src="../imagenes/logoCultura.png" alt="Ministerio de Cultura">
-                        </a>
-                    </li>     
 
-                    <li>
-                        <a href="https://museomoderno.org/" target="_blank"> <!-- Link a Museo Moderno -->
-                            <img class="links__logoModerno" src="../imagenes/logoModerno.png" alt="Museo Arte Moderno">
-                        </a> 
-                    </li>    
+            <ul class="links">
+                
+                <li>
+                    <a href="https://www.argentina.gob.ar/cultura" target="_blank"> <!-- Link a Ministerio de cultura -->
+                        <img class="links__logoCultura" src="../imagenes/logoCultura.png" alt="Ministerio de Cultura">
+                    </a>
+                </li>     
 
-                    <li>
-                        <a href="https://mica.gob.ar/inicio" target="_blank"> <!-- Link a MICA -->
-                            <img class="links__logoMica" src="../imagenes/logoMica.png" alt="MICA">
-                        </a> 
-                    </li>              
-                </ul>
-                    
-            </div>
+                <li>
+                    <a href="https://museomoderno.org/" target="_blank"> <!-- Link a Museo Moderno -->
+                        <img class="links__logoModerno" src="../imagenes/logoModerno.png" alt="Museo Arte Moderno">
+                    </a> 
+                </li>    
+
+                <li>
+                    <a href="https://mica.gob.ar/inicio" target="_blank"> <!-- Link a MICA -->
+                        <img class="links__logoMica" src="../imagenes/logoMica.png" alt="MICA">
+                    </a> 
+                </li>   
+
+            </ul>
+
         </section>
 
     </main>
 
 
-    <footer>
+    <footer>  <!-- Links a redes sociales con logo -->
 
-        <div class="footer" >
+        <div class="footer" > 
 
             <div>
                 <span class="footer__span">Todos los derechos reservados</span>
             </div>
 
             <ul class="footer__iconos" >
+
                 <li>
                     <a href="#"> <!-- Link Twitter -->
                         <img class="footer__redes" src="../imagenes/twitter.png" alt="Twitter" >
@@ -226,7 +225,9 @@
                         <img class="footer__redes" src="../imagenes/facebook.png" alt="Facebook">
                     </a>
                 </li>
+
             </ul>
+
         </div>
 
     </footer>

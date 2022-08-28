@@ -1,3 +1,7 @@
+/* ----------  HEADER  ---------- */
+/* ----------  HEADER  ---------- */
+/* ----------  HEADER  ---------- */
+
 * {
 	margin: 0;
 	padding: 0;
@@ -9,9 +13,17 @@ p {
 	font-size: medium;
 }
 
-.menu {
+.navbar-brand__imagen {
+	height: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+}
+
+.navbar-nav {
 	
 	display: flex;
+	flex-direction: row;
 
 	&__texto {
 		color: rgb(131, 131, 131);
@@ -20,13 +32,6 @@ p {
 		padding-left: 10px;
 		padding-right: 10px;
 		text-decoration: none;
-	}
-	
-	&__imagen {
-		height: 50px;
-		padding-left: 10px;
-		padding-right: 10px;
-		padding-top: 5px;
 	}
 
 }

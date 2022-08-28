@@ -1,10 +1,14 @@
+/* ----------  MEDIA QUERIES  ---------- */
+/* ----------  MEDIA QUERIES  ---------- */
+/* ----------  MEDIA QUERIES  ---------- */
+
 /*TABLET*/
 
-@media screen and (max-width:1023px) {
+@media screen and (max-width:990px) {
 	
 	/*HEADER*/
 
-	.menu {
+	.navbar-nav {
 		width: 100%;
 		justify-content: space-evenly;
 	}
@@ -89,7 +93,7 @@
 @media screen and (max-width:599px) {
 
 	/*HEADER*/
-	.menu__texto {
+	.navbar-nav__texto {
 		font-size: 12px;
 		padding-left: 7px;
 		padding-right: 7px;

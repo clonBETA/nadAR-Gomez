@@ -1,4 +1,7 @@
-/*Siempre al Inicio*/
+
+/* ----------  HEADER  ---------- */
+/* ----------  HEADER  ---------- */
+/* ----------  HEADER  ---------- */
 * {
   margin: 0;
   padding: 0;
@@ -10,11 +13,19 @@ p {
   font-size: medium;
 }
 
-.menu {
-  display: flex;
+.navbar-brand__imagen {
+  height: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
 }
 
-.menu__texto {
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-nav__texto {
   color: #838383;
   font-size: 15px;
   font-weight: bold;
@@ -23,13 +34,9 @@ p {
   text-decoration: none;
 }
 
-.menu__imagen {
-  height: 50px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 5px;
-}
-
+/* ----------  PAGINA HOME  ---------- */
+/* ----------  PAGINA HOME  ---------- */
+/* ----------  PAGINA HOME  ---------- */
 .presentacion {
   display: grid;
   grid-template-columns: 100%;
@@ -124,6 +131,9 @@ p {
   padding: 10px;
 }
 
+/* ----------  PAGINA INSTALACIONES  ---------- */
+/* ----------  PAGINA INSTALACIONES  ---------- */
+/* ----------  PAGINA INSTALACIONES  ---------- */
 .instalacionPresentacion {
   display: grid;
   grid-template-columns: 100%;
@@ -360,6 +370,9 @@ p {
   font-size: 60px;
 }
 
+/* ----------  PAGINA REGISTRO  ---------- */
+/* ----------  PAGINA REGISTRO  ---------- */
+/* ----------  PAGINA REGISTRO  ---------- */
 .azulRegistro {
   display: flex;
   flex-direction: column;
@@ -440,6 +453,9 @@ p {
   width: 70%;
 }
 
+/* ----------  PAGINA NADADORES  ---------- */
+/* ----------  PAGINA NADADORES  ---------- */
+/* ----------  PAGINA NADADORES  ---------- */
 .azulNadadores {
   display: flex;
   flex-direction: column;
@@ -543,6 +559,9 @@ p {
   margin-top: 10px;
 }
 
+/* ----------  PAGINA CONTACTO  ---------- */
+/* ----------  PAGINA CONTACTO  ---------- */
+/* ----------  PAGINA CONTACTO  ---------- */
 .azulContacto {
   display: flex;
   flex-direction: column;
@@ -665,6 +684,9 @@ p {
   margin-top: 20px;
 }
 
+/* ----------  EXTRAS  ---------- */
+/* ----------  EXTRAS  ---------- */
+/* ----------  EXTRAS  ---------- */
 .presentadores {
   color: #7c7c7c;
   font-size: x-large;
@@ -697,6 +719,9 @@ p {
   height: 70%;
 }
 
+/* ----------  FOOTER  ---------- */
+/* ----------  FOOTER  ---------- */
+/* ----------  FOOTER  ---------- */
 .footer {
   display: grid;
   grid-template-columns: 50% 50%;
@@ -725,10 +750,13 @@ p {
   width: 50px;
 }
 
+/* ----------  MEDIA QUERIES  ---------- */
+/* ----------  MEDIA QUERIES  ---------- */
+/* ----------  MEDIA QUERIES  ---------- */
 /*TABLET*/
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 990px) {
   /*HEADER*/
-  .menu {
+  .navbar-nav {
     width: 100%;
     justify-content: space-evenly;
   }
@@ -802,7 +830,7 @@ p {
 /*MOBILE*/
 @media screen and (max-width: 599px) {
   /*HEADER*/
-  .menu__texto {
+  .navbar-nav__texto {
     font-size: 12px;
     padding-left: 7px;
     padding-right: 7px;
@@ -913,5 +941,3 @@ p {
     margin-bottom: 20px;
   }
 }
-
-/*Siempre al final*/
